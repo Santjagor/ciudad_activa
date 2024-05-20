@@ -1,6 +1,15 @@
-.mainImage {
-    background-color: rgb(151, 189, 243);
+.mainImageContainer {
     height: 90vh;
+    overflow: hidden;
+}
+
+.mainImage {
+    width: 100%;
+    object-fit: cover;
+    animation-name: mainImage;
+    animation-duration: 32s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
 }
 
 .sections {
@@ -14,8 +23,6 @@
     height: 375px;
     width: 100%;
     border: 1px black solid;
-    text-decoration: none;
-    color: black;
 }
 
 .section:hover {
@@ -25,6 +32,13 @@
 .blogContainer {
     margin: 70px 0px 70px 0px;
     gap: 20px;
+}
+
+.date {
+    font-style: italic;
+    text-align: end;
+    font-size: 13px;
+    padding: 7px;
 }
 
 .title {
@@ -48,10 +62,6 @@
     height: fit-content;
     overflow: hidden;
 }
-
-/* .post:hover {
-    cursor: pointer;
-} */
 
 .postTitle {
     font-weight: bold;
@@ -78,7 +88,7 @@
     margin: 10px;
 }
 
-.viewMore{
+.viewMore {
     font-size: 18px;
     width: fit-content;
     cursor: pointer;
@@ -88,6 +98,20 @@
     transition: 0.2s ease-in-out;
 }
 
-.viewMore:hover{
+.viewMore:hover {
     color: black;
+}
+
+@keyframes mainImage {
+    0% {
+        transform: scale(1.0) translateX(0px);
+    }
+
+    50% {
+        transform: scale(1.1) translateX(60px);
+    }
+
+    100% {
+        transform: scale(1.0) translateX(0px);
+    }
 }

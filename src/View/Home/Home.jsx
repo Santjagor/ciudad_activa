@@ -16,8 +16,8 @@ export default function Home() {
 
     return (
         <div>
-            <div className={styles.mainImage}> Imagen Principal
-                <img src="" alt="" />
+            <div className={styles.mainImageContainer}>
+                <img className={styles.mainImage} src="imagen0.jpg" alt="" />
             </div>
             <div className={styles.sections}>
                 {sections.map(sec => {
@@ -42,8 +42,9 @@ export default function Home() {
                                 key={post.id}
                                 id={post.id}
                             >
+                                <div className={styles.date}>{post.date}</div>
                                 <div className={styles.postTitle}>{post.title}</div>
-                                <img className={styles.postImage} src={post.image}></img>
+                                <img className={styles.postImage} src={post.mainImage}></img>
                                 <div className={styles.postSubtitle}>{post.subtitle}</div>
                                 <div className={styles.postBodyContainer}>
                                     <p className={styles.postBody}>{post.body}</p>
