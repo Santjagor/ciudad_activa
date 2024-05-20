@@ -1,0 +1,74 @@
+.mainImage {
+    background-color: rgb(151, 189, 243);
+    height: 90vh;
+}
+
+.sections {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    background-color: rgb(243, 127, 127);
+    padding: 5px;
+    height: 375px;
+    width: 100%;
+    border: 1px black solid;
+    text-decoration: none;
+    color: black;
+}
+
+.section:hover {
+    cursor: pointer;
+}
+
+.blogContainer {
+    margin: 70px 0px 70px 0px;
+    gap: 20px;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 40px;
+    margin: 0px 0px 20px 0px;
+}
+
+.postContainer {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.post {
+    background-color: rgb(151, 189, 243);
+    min-width: 250px;
+    width: 31vw;
+    max-width: 500px;
+    height: 390px;
+    overflow: hidden;
+}
+
+.post:hover {
+    cursor: pointer;
+}
+
+.postTitle {
+    font-weight: bold;
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.postImage {
+    width: 100%;
+}
+
+.postSubtitle {
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.postBody {
+    text-align: start;
+    margin: 10px;
+}

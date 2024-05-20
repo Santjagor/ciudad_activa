@@ -1,0 +1,54 @@
+import styles from './Home.module.css'
+import { sections, blog } from '../../Data/Data'
+import { useNavigate } from 'react-router-dom'
+
+export default function Home() {
+    const navigate = useNavigate()
+    const lastPosts = blog.slice(0, 6)
+
+    const handleSections = (e) => {
+        navigate(`/section/${e.target.id}`)
+    }
+
+    const handleBlog = (e) => {
+
+    }
+
+    return (
+        <div>
+            <div className={styles.mainImage}> Imagen Principal
+                <img src="" alt="" />
+            </div>
+            <div className={styles.sections}>
+                {sections.map(sec => {
+                    return (
+                        <div
+                            className={styles.section}
+                            id={sec.id}
+                            onClick={handleSections}>
+                            {`Sección ${sec.id}`}
+                        </div>
+                    )
+                })}
+            </div>
+            <div className={styles.blogContainer}>
+                <div className={styles.title}>ULTIMAS NOTICIAS</div>
+                <div className={styles.postContainer}>
+                    {lastPosts.map(post => {
+                        return (
+                            <div
+                                className={styles.post}
+                                id={post.id}
+                                onClick={handleBlog}>
+                                    <div className={styles.postTitle}>{post.title}</div>
+                                    <img className={styles.postImage} src={post.image}></img>
+                                    <div className={styles.postSubtitle}>{post.subtitle}</div>
+                                    <p className={styles.postBody}>{post.body}</p>
+                            </div>
+                        )
+                    })}
+                </div>
+            </div>
+        </div>
+    )
+}
