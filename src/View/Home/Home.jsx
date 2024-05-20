@@ -24,6 +24,7 @@ export default function Home() {
                     return (
                         <div
                             className={styles.section}
+                            key={sec.id}
                             id={sec.id}
                             onClick={handleSections}>
                             {`Sección ${sec.id}`}
@@ -38,6 +39,7 @@ export default function Home() {
                         return (
                             <div
                                 className={styles.post}
+                                key={post.id}
                                 id={post.id}
                             >
                                 <div className={styles.postTitle}>{post.title}</div>
