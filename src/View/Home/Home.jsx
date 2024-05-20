@@ -11,7 +11,7 @@ export default function Home() {
     }
 
     const handleBlog = (e) => {
-
+        navigate(`/post/${e.target.id}`)
     }
 
     return (
@@ -39,11 +39,14 @@ export default function Home() {
                             <div
                                 className={styles.post}
                                 id={post.id}
-                                onClick={handleBlog}>
-                                    <div className={styles.postTitle}>{post.title}</div>
-                                    <img className={styles.postImage} src={post.image}></img>
-                                    <div className={styles.postSubtitle}>{post.subtitle}</div>
+                            >
+                                <div className={styles.postTitle}>{post.title}</div>
+                                <img className={styles.postImage} src={post.image}></img>
+                                <div className={styles.postSubtitle}>{post.subtitle}</div>
+                                <div className={styles.postBodyContainer}>
                                     <p className={styles.postBody}>{post.body}</p>
+                                </div>
+                                <div id={post.id} className={styles.viewMore} onClick={handleBlog}>... ver más</div>
                             </div>
                         )
                     })}
