@@ -22,12 +22,14 @@ export default function Home() {
             <div className={styles.sections}>
                 {sections.map(sec => {
                     return (
-                        <div
-                            className={styles.section}
-                            key={sec.id}
-                            id={sec.id}
-                            onClick={handleSections}>
-                            {`Sección ${sec.id}`}
+                        <div className={styles.sectionContainer}>
+                            <img src={sec.image}
+                                className={styles.section}
+                                key={sec.id}
+                                id={sec.id}
+                                onClick={handleSections}>
+                            </img>
+                            <div className={styles.sectionTitle}>{sec.name}</div>
                         </div>
                     )
                 })}
