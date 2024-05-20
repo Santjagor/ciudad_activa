@@ -1,10 +1,13 @@
 import styles from './Home.module.css'
 import { sections, blog } from '../../Data/Data'
 import { useNavigate } from 'react-router-dom'
+import { useEffect, useState } from 'react'
 
 export default function Home() {
     const navigate = useNavigate()
-    const lastPosts = blog.slice(0, 6)
+    const [numPosts, setNumPosts] = useState(3)
+
+    let lastPosts = blog.slice(0, numPosts)
 
     const handleSections = (e) => {
         navigate(`/section/${e.target.id}`)
@@ -12,6 +15,13 @@ export default function Home() {
 
     const handleBlog = (e) => {
         navigate(`/post/${e.target.id}`)
+    }
+
+    const showMorePosts = () => {
+        if (numPosts - 1 <= blog.length - 1) {
+            setNumPosts(numPosts + 3)
+            lastPosts = blog.slice(0, numPosts)
+        }
     }
 
     return (
@@ -56,6 +66,7 @@ export default function Home() {
                         )
                     })}
                 </div>
+                <div className={styles.morePosts} onClick={showMorePosts}>Más Noticias</div>
             </div>
         </div>
     )

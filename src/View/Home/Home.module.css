@@ -62,7 +62,6 @@
 
 .blogContainer {
     margin: 150px 0px 100px 0px;
-    gap: 20px;
 }
 
 .date {
@@ -84,6 +83,9 @@
     justify-content: center;
     flex-wrap: wrap;
     gap: 20px;
+    height: fit-content;
+    max-width: 2050px;
+    transition: 0.2s ease-in-out;
 }
 
 .post {
@@ -91,7 +93,7 @@
     min-width: 250px;
     width: 31vw;
     max-width: 500px;
-    height: fit-content;
+    /* height: fit-content; */
     overflow: hidden;
 }
 
@@ -132,6 +134,20 @@
 
 .viewMore:hover {
     color: black;
+}
+
+.morePosts{
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px 0px 0px 0px;
+    color: rgb(25, 75, 147);
+    cursor: pointer;
+    /* width: fit-content; */
+    transition: 0.1s ease-in-out;
+}
+
+.morePosts:hover{
+    scale: 1.05;
 }
 
 @keyframes mainImage {
