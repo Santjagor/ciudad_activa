@@ -56,10 +56,10 @@ export default function Home() {
                             >
                                 <div className={styles.date}>{post.date}</div>
                                 <div className={styles.postTitle}>{post.title}</div>
-                                <img className={styles.postImage} src={post.mainImage}></img>
+                                <img className={styles.postImage} src={post.image1.url}></img>
                                 <div className={styles.postSubtitle}>{post.subtitle}</div>
                                 <div className={styles.postBodyContainer}>
-                                    <p className={styles.postBody}>{post.body}</p>
+                                    <p className={styles.postBody}>{post.body1}</p>
                                 </div>
                                 <div id={post.id} className={styles.viewMore} onClick={handleBlog}>... ver más</div>
                             </div>
