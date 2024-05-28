@@ -27,7 +27,7 @@ export default function Home() {
     return (
         <div>
             <div className={styles.mainImageContainer}>
-                <img className={styles.mainImage} src="imagen0.jpg" alt="" />
+                <img className={styles.mainImage} src="imagen_principal.jpg" alt="" />
             </div>
             <div className={styles.sections}>
                 {sections.map(sec => {
