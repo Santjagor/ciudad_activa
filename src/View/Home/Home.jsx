@@ -20,7 +20,7 @@ export default function Home({handleBlog, handleSections}) {
         <div>
             <div className={styles.mainImageContainer}>
                 <img className={styles.mainImage} src="imagen_principal.jpg" alt="" />
-                <img className={styles.logo} src="logo.png" alt="" />
+                <img className={styles.logo} src="Logo.png" alt="" />
             </div>
             <div className={styles.sections}>
                 {sections.map(sec => {
