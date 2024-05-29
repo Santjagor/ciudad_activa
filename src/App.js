@@ -9,10 +9,11 @@ import Post from './Components/Post/Post';
 function App() {
   return (
     <div className="App">
+      <Navbar />
       <Routes>
         <Route path='/' Component={Home} />
         <Route path='/section/:id' Component={Section} />
-        <Route path='/post/:id' Component={Post}/>
+        <Route path='/post/:id' Component={Post} />
       </Routes>
     </div>
   );
