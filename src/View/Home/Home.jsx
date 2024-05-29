@@ -3,19 +3,11 @@ import { sections, blog } from '../../Data/Data'
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
-export default function Home() {
+export default function Home({handleBlog, handleSections}) {
     const navigate = useNavigate()
     const [numPosts, setNumPosts] = useState(3)
 
     let lastPosts = blog.slice(0, numPosts)
-
-    const handleSections = (e) => {
-        navigate(`/section/${e.target.id}`)
-    }
-
-    const handleBlog = (e) => {
-        navigate(`/post/${e.target.id}`)
-    }
 
     const showMorePosts = () => {
         if (numPosts - 1 <= blog.length - 1) {
@@ -45,7 +37,7 @@ export default function Home() {
                     )
                 })}
             </div>
-            <div className={styles.blogContainer}>
+            <div id='blog' className={styles.blogContainer}>
                 <div className={styles.title}>ULTIMAS NOTICIAS</div>
                 <div className={styles.postContainer}>
                     {lastPosts.map(post => {

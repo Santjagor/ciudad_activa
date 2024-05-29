@@ -1,11 +1,18 @@
-import styles from  './Navbar.module.css'
+import styles from './Navbar.module.css'
 
-export default function Navbar() {
+
+export default function Navbar({ handleSections, navigate }) {
     return (
         <div className={styles.container}>
-            <div className={styles.button}>BOTON</div>
-            <div className={styles.button}>BOTON</div>
-            <div className={styles.button}>BOTON</div>
+            <img onClick={()=>{navigate('/')}} className={styles.logo} src="Logo2.png" alt="" />
+            <div className={styles.buttonContainer}>
+                <div id="1" onClick={handleSections} className={styles.button}>UNO</div>
+                <div id="2" onClick={handleSections} className={styles.button}>DOS</div>
+                <div id="3" onClick={handleSections} className={styles.button}>TRES</div>
+                <a href="#blog">
+                    <div className={styles.button}>BLOG</div>
+                </a>
+            </div>
         </div>
     )
 }

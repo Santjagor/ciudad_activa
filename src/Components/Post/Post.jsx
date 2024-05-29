@@ -1,12 +1,16 @@
 import styles from './Post.module.css'
 import { blog } from '../../Data/Data'
 import { useLocation } from 'react-router-dom';
+import { useEffect } from 'react';
 
 export default function Post() {
     const location = useLocation()
     const postId = Number(location.pathname.split('/')[2])
     const post = blog.filter(p => p.id === postId)[0]
 
+    useEffect(() => {
+        window.scrollTo(0, 0)
+    }, [])
     return (
         <div className={styles.container}>
             <div className={styles.post}>
