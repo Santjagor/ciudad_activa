@@ -3,8 +3,7 @@ import { sections, blog } from '../../Data/Data'
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
-export default function Home({handleBlog, handleSections}) {
-    const navigate = useNavigate()
+export default function Home({ handleSections }) {
     const [numPosts, setNumPosts] = useState(3)
 
     let lastPosts = blog.slice(0, numPosts)
@@ -47,19 +46,24 @@ export default function Home({handleBlog, handleSections}) {
                                 key={post.id}
                                 id={post.id}
                             >
-                                <div className={styles.date}>{post.date}</div>
+                                <img className={styles.postImage} src={post.image}></img>
                                 <div className={styles.postTitle}>{post.title}</div>
-                                <img className={styles.postImage} src={post.image1.url}></img>
-                                <div className={styles.postSubtitle}>{post.subtitle}</div>
-                                <div className={styles.postBodyContainer}>
-                                    <p className={styles.postBody}>{post.body1}</p>
-                                </div>
-                                <div id={post.id} className={styles.viewMore} onClick={handleBlog}>... ver más</div>
+                                <hr />
+                                <div className={styles.postDescription}>{post.description}</div>
+                                <a href={post.url} target='_blank'>
+                                    <div id={post.id} className={styles.viewMore}>Ver más</div>
+                                </a>
                             </div>
                         )
                     })}
                 </div>
-                <div className={styles.morePosts} onClick={showMorePosts}>Más Noticias</div>
+                {
+                    numPosts - 1 <= blog.length - 1
+                        ?
+                        <div className={styles.morePosts} onClick={showMorePosts}>Más Noticias</div>
+                        :
+                        <></>
+                }
             </div>
         </div>
     )
