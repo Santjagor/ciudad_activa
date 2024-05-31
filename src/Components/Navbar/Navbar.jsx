@@ -1,10 +1,11 @@
 import styles from './Navbar.module.css'
 
-
 export default function Navbar({ handleBlog, handleSections, navigate }) {
     return (
         <div className={styles.container}>
-            <img onClick={() => { navigate('/') }} className={styles.logo} src="Logo2.png" alt="" />
+            <div className={styles.ncContainer}>
+                <img onClick={() => { navigate('/') }} className={styles.logo} src="Logo2.png" alt="" />
+            </div>
             <div className={styles.buttonContainer}>
                 <div id="1" onClick={handleSections} className={styles.button}>UNO</div>
                 <div id="2" onClick={handleSections} className={styles.button}>DOS</div>

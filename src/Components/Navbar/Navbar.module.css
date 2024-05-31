@@ -11,9 +11,14 @@ a {
     text-decoration: none;
 }
 
+.ncContainer{
+    display: flex;
+}
+
 .logo{
     height: 30px;
     cursor: pointer;
+    margin-right: 20px;
 }
 
 .buttonContainer {
