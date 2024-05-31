@@ -11,8 +11,8 @@ import { useNavigate } from 'react-router-dom'
 function App() {
   const navigate = useNavigate()
 
-  const handleBlog = (e) => {
-    navigate(`/post/${e.target.id}`)
+  const handleBlog = () => {
+    navigate(`/`)
   }
 
   const handleSections = (e) => {
@@ -22,6 +22,7 @@ function App() {
   return (
     <div className="App">
       <Navbar
+        handleBlog={handleBlog}
         handleSections={handleSections}
         navigate={navigate}
       />
