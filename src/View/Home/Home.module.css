@@ -83,7 +83,7 @@
     font-weight: bold;
     font-size: 40px;
     margin: 0px 0px 20px 0px;
-    color: rgb(25, 75, 147);
+    color: var(--primary-color);
 }
 
 .postContainer {
@@ -98,7 +98,6 @@
 }
 
 .post {
-    /* background-color: rgb(175, 206, 247); */
     min-width: 250px;
     width: 29vw;
     max-width: 500px;
@@ -129,13 +128,13 @@
     font-weight: bold;
     color: rgb(255, 255, 255);
     transition: 0.2s ease-in-out;
-    background-color: rgb(25, 75, 147);
+    background-color: var(--primary-color);
     padding: 10px;
     border-radius: 15px;
 }
 
 .viewMore:hover {
-    color: rgb(25, 75, 147);
+    color: var(--primary-color);
     background-color: rgb(255, 255, 255);
 }
 
@@ -143,7 +142,7 @@
     font-weight: bold;
     font-size: 20px;
     margin: 20px 0px 0px 0px;
-    color: rgb(25, 75, 147);
+    color: var(--primary-color);
     cursor: pointer;
     transition: 0.1s ease-in-out;
 }

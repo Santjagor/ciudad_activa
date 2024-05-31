@@ -1,3 +1,8 @@
+:root{
+  --primary-color: rgb(25, 75, 147);
+  
+}
+
 html{
   scroll-behavior: smooth;
 }
