@@ -5,6 +5,7 @@ import { useEffect, useState } from 'react'
 
 export default function Home({ handleSections }) {
     const [numPosts, setNumPosts] = useState(3)
+    const navigate = useNavigate()
 
     let lastPosts = blog.slice(0, numPosts)
 
@@ -18,8 +19,8 @@ export default function Home({ handleSections }) {
     return (
         <div>
             <div className={styles.mainImageContainer}>
-                <img className={styles.mainImage} src="imagen_principal.jpg" alt="" />
-                <img className={styles.logo} src="Logo.png" alt="" />
+                <img className={styles.mainImage} src="imagen-principal.jpg" alt="" />
+                <img onClick={()=>{navigate('/main-article')}} className={styles.logo} src="Logo.png" alt="" />
             </div>
             <div className={styles.sections}>
                 {sections.map(sec => {

@@ -1,4 +1,5 @@
 import styles from './Navbar.module.css'
+import { sections } from '../../Data/Data'
 
 export default function Navbar({ handleBlog, handleSections, navigate }) {
     return (
@@ -7,9 +8,12 @@ export default function Navbar({ handleBlog, handleSections, navigate }) {
                 <img onClick={() => { navigate('/') }} className={styles.logo} src="Logo2.png" alt="" />
             </div>
             <div className={styles.buttonContainer}>
-                <div id="1" onClick={handleSections} className={styles.button}>UNO</div>
-                <div id="2" onClick={handleSections} className={styles.button}>DOS</div>
-                <div id="3" onClick={handleSections} className={styles.button}>TRES</div>
+
+                {sections.map(section => {
+                    return (
+                        <div id={section.id} onClick={handleSections} className={styles.button}>{section.name}</div>
+                    )
+                })}
                 <a onClick={handleBlog} href="#blog">
                     <div className={styles.button}>BLOG</div>
                 </a>

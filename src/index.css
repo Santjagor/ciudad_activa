@@ -1,9 +1,9 @@
-:root{
+:root {
   --primary-color: rgb(25, 75, 147);
-  
+  --primary-title-size: 40px;
 }
 
-html{
+html {
   scroll-behavior: smooth;
 }
 

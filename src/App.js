@@ -4,6 +4,7 @@ import Home from './View/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
 import Section from './Components/Section/Section'
 import Footer from './Components/Footer/Footer'
+import MainArticle from './View/MainArticle/MainArticle'
 import { Route, Routes } from 'react-router-dom';
 import Post from './Components/Post/Post';
 import { useNavigate } from 'react-router-dom'
@@ -36,6 +37,7 @@ function App() {
           } />
         <Route path='/section/:id' element={<Section />} />
         <Route path='/post/:id' element={<Post />} />
+        <Route path='/main-article' element={<MainArticle />} />
       </Routes>
       <Footer />
     </div>
