@@ -1,33 +1,61 @@
-.container{
+.container {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.articleContainer{
-    width: 50%;
+.articleContainer {
+    width: 60%;
 }
 
-.topImage{
-    width: 100%;
+.topImageContainer{
     height: 30vh;
-    object-fit: cover;
+    overflow: hidden;
 }
 
-.title{
+.topImage {
+    animation-name: breathe;
+    animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    width: 100%;
+    object-fit: cover;
+    margin-bottom: 2rem;
+}
+
+.title {
+    font-family: title;
+    color: var(--primary-title-color);
     font-weight: bold;
     font-size: var(--primary-title-size);
 }
 
-.subtitle{
-
+.subtitle {
+    
 }
 
-.list{
-    text-align: left;
+.list {
+    
 }
 
-.text{
+.text {
+    font-family: text;
+    font-size: var(--primary-text-size);
+    color: var(--primary-text-color);
     text-align: left;
     margin-bottom: 1rem;
+}
+
+@keyframes breathe {
+    0% {
+        transform: scale(1.0);
+    }
+
+    50% {
+        transform: scale(1.1);
+    }
+
+    100% {
+        transform: scale(1.0);
+    }
 }

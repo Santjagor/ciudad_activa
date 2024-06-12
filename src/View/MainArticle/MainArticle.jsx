@@ -3,7 +3,9 @@ import style from './MainArticle.module.css'
 export default function MainArticle() {
     return (
         <div className={style.container}>
-            <img className={style.topImage} src="/imagen-principal.jpg" alt="" />
+            <div className={style.topImageContainer}>
+                <img className={style.topImage} src="/imagen-principal.jpg" alt="main-image" />
+            </div>
             <div className={style.title}>GOBIERNO ABIERTO</div>
             <div className={style.title}>PARTICIPACIÓN CIUDADANA</div>
             <div className={style.title}>PODER VECINAL</div>
@@ -19,7 +21,7 @@ export default function MainArticle() {
                     En un tiempo presente signado por diagnósticos críticos, sin esperanza ni aparente respuesta a los problemas
                     cotidianos que atraviesa nuestra sociedad, es tiempo de potenciar la inteligencia colectiva, para abordar la
                     complejidad de la democracia inmersa en una crisis, no solo global, sino estructural; donde sus cimientos han
-                    sido erosionados en los últimos veinte años, por una triada apocalíptica:  Crisis política, crisis económica,
+                    sido erosionados en los últimos veinte años, por una triada apocalíptica: Crisis política, crisis económica,
                     crisis social.
                 </div>
                 <div className={style.text}>

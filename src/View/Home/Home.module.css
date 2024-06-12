@@ -21,7 +21,7 @@
 .mainImage {
     width: 100%;
     object-fit: cover;
-    animation-name: mainImage;
+    animation-name: breathe;
     animation-duration: 25s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
@@ -87,6 +87,7 @@
     font-size: var(--primary-title-size);
     margin: 0px 0px 20px 0px;
     color: var(--primary-color);
+    font-family: title;
 }
 
 .postContainer {
@@ -110,10 +111,13 @@
 }
 
 .postTitle {
+    color: var(--primary-title-color);
     font-weight: bold;
-    font-size: 25px;
+    font-size: 2rem;
+    font-family: title;
     margin-bottom: 20px;
     height: 125px;
+    padding: 0.2rem;
 }
 
 .postImage {
@@ -123,11 +127,13 @@
 }
 
 .postDescription {
+    color: var(--primary-text-color);
+    font-family: text;
     margin-bottom: 10px;
 }
 
 .viewMore {
-    font-size: 18px;
+    font-size: 1.1rem;
     width: fit-content;
     cursor: pointer;
     font-weight: bold;
@@ -156,7 +162,7 @@
     scale: 1.05;
 }
 
-@keyframes mainImage {
+@keyframes breathe {
     0% {
         transform: scale(1.0);
     }
