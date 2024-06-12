@@ -1,4 +1,9 @@
 @font-face {
+  font-family: fun;
+  src: url(/src/Assets/Fonts/Chalkiez-Regular.otf);
+}
+
+@font-face {
   font-family: title;
   src: url(/src//Assets//Fonts/BebasKai.otf);
 }
@@ -10,6 +15,7 @@
 
 :root {
   --primary-color: rgb(25, 75, 147);
+  --secondary-color: rgb(21, 224, 163);
   --primary-title-size: 3.5rem;
   --primary-title-color: rgb(54, 54, 54);
   --primary-text-size: 1.1rem;

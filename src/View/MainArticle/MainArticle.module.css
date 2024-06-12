@@ -5,12 +5,13 @@
 }
 
 .articleContainer {
-    width: 60%;
+    width: 70%;
 }
 
-.topImageContainer{
+.topImageContainer {
     height: 30vh;
     overflow: hidden;
+    margin-bottom: 2rem;
 }
 
 .topImage {
@@ -20,22 +21,27 @@
     animation-iteration-count: infinite;
     width: 100%;
     object-fit: cover;
-    margin-bottom: 2rem;
 }
 
 .title {
+    cursor: default;
     font-family: title;
     color: var(--primary-title-color);
     font-weight: bold;
     font-size: var(--primary-title-size);
+    transform: translate(0%, 0%);
+    transition: all .2s ease-in-out;
 }
 
-.subtitle {
-    
+.title:hover {
+    transform: translate(3%, 0%);
+    transition: all .2s ease-in-out;
 }
+
+.subtitle {}
 
 .list {
-    
+    width: fit-content;
 }
 
 .text {

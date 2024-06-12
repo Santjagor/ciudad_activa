@@ -7,7 +7,7 @@ export default function MainArticle() {
                 <img className={style.topImage} src="/imagen-principal.jpg" alt="main-image" />
             </div>
             <div className={style.title}>GOBIERNO ABIERTO</div>
-            <div className={style.title}>PARTICIPACIÓN CIUDADANA</div>
+            <div className={style.title}>PARTICIPACION CIUDADANA</div>
             <div className={style.title}>PODER VECINAL</div>
             <div className={style.articleContainer}>
                 <div className={style.subtitle}>Un desafío en marcha</div>
