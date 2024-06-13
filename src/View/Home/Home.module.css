@@ -63,6 +63,7 @@
     color: white;
     font-weight: bold;
     font-size: 50px;
+    font-family: title;
     transform: translate(-50%, 100%);
     cursor: pointer;
     pointer-events: none;
