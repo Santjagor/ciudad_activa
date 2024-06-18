@@ -20,7 +20,8 @@ export default function Home({ handleSections }) {
         <div>
             <div className={styles.mainImageContainer}>
                 <img className={styles.mainImage} src="imagen-principal.jpg" alt="" />
-                <img onClick={()=>{navigate('/main-article')}} className={styles.logo} src="Logo.png" alt="" />
+                <img onClick={() => { navigate('/main-article') }} className={styles.logo} src="Logo.png" alt="" />
+                <div onClick={() => { navigate('/main-article') }} className={styles.text_logo}>Gobierno Abierto - Participación Ciudadana</div>
             </div>
             <div className={styles.sections}>
                 {sections.map(sec => {

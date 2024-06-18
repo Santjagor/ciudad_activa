@@ -1,17 +1,17 @@
 export const sections = [
     {
         id: 1,
-        name: "UNO",
+        name: "Transporte Público",
         image: "Section1.png",
     },
     {
         id: 2,
-        name: "DOS",
+        name: "Foros",
         image: "Section2.png",
     },
     {
         id: 3,
-        name: "TRES",
+        name: "Fondo Urbano",
         image: "Section3.png",
     },
 ]

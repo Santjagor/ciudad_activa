@@ -10,13 +10,40 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -110%);
-    filter: drop-shadow(4px 4px 5px rgb(0, 0, 0));
+    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
     z-index: 99;
     animation: slideLeft 1.5s ease-in-out;
     cursor: pointer;
+    transition: all .2s ease-in-out;
 }
 
-.logo:hover {}
+.logo:hover {
+    width: 37vw;
+}
+
+.text_logo {
+    background-color: white;
+    color: rgb(31, 31, 31);
+    font-family: text;
+    font-weight: bold;
+    font-size: var(--secondary-text-size);
+    width: 35vw;
+    height: 2rem;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, 20%);
+    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
+    z-index: 99;
+    animation: slideRight 1.5s ease-in-out;
+    animation-delay: .5s;
+    cursor: pointer;
+    transition: all .2s ease-in-out;
+}
+
+.text_logo:hover {
+    font-size: 1.47rem;
+}
 
 .mainImage {
     width: 100%;
@@ -49,22 +76,22 @@
     }
 
     .sectionTitle {
-        font-size: 70px;
+        font-size: 60px;
         transform: translate(-50%, -50%);
     }
 }
 
 .sectionTitle {
+    width: 100%;
     position: absolute;
     top: 50%;
     left: 50%;
-    margin-left: 15px;
     z-index: 1;
     color: white;
     font-weight: bold;
-    font-size: 50px;
+    font-size: 40px;
     font-family: title;
-    transform: translate(-50%, 100%);
+    transform: translate(-50%, 200%);
     cursor: pointer;
     pointer-events: none;
     transition: 0.2s ease-in-out;
@@ -194,5 +221,15 @@
 
     100% {
         transform: translate(-50%, -110%);
+    }
+}
+
+@keyframes slideRight {
+    0% {
+        transform: translate(300%, 20%);
+    }
+
+    100% {
+        transform: translate(-50%, 20%);
     }
 }

@@ -1,8 +1,9 @@
 .container {
+    background-color: var(--primary-color);
     display: flex;
     align-items: center;
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
     animation: appear 1s;
     padding: 0 120px 0 120px;
 }
@@ -29,14 +30,16 @@ a {
 }
 
 .button {
-    font-weight: bold;
-    color: rgb(82, 82, 82);
+    color: white;
+    font-family: text;
+    opacity: 80%;
     transition: 0.2s ease-in-out;
+    letter-spacing: .2rem;
 }
 
 .button:hover {
     cursor: pointer;
-    color: rgb(36, 36, 36);
+    opacity: 60%;
 }
 
 @keyframes appear {

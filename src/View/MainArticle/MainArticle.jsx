@@ -10,6 +10,7 @@ export default function MainArticle() {
             <div className={style.title}>PARTICIPACION CIUDADANA</div>
             <div className={style.title}>PODER VECINAL</div>
             <div className={style.articleContainer}>
+                <hr />
                 <div className={style.subtitle}>Un desafío en marcha</div>
                 <ul className={style.list}>
                     <li>Democratizar la democracia.</li>
@@ -60,10 +61,12 @@ export default function MainArticle() {
                     vez mayores, la seguridad no tiene conducción política, es imposible acceder a una vivienda y al suelo urbano, y la falta de
                     empatía gubernamental hacia los reclamos de los vecinos es vergonzoso.
                 </div>
+                <hr />
                 <div className={style.text_strong}>
                     Nosotros elegimos una democracia donde el pueblo delibere con sus representantes todo el tiempo, no solo a través de ellos.
                     Con un funcionamiento  cada vez más atento a las demandas de la sociedad.
                 </div>
+                <hr />
                 <div className={style.text}>
                     No entendemos la participación ciudadana como antagónica a la participación política sino como fortalecimiento de la misma.
                     No como fachada o fetiche de debates sectoriales sino como pueblo que se organiza para ser protagonista estratégico del
@@ -84,9 +87,11 @@ export default function MainArticle() {
                     </div>
                     <img className={style.image} src="imagen-principal.jpg" alt="" />
                 </div>
+                <hr />
                 <div className={style.text_strong}>
                     Las políticas públicas, no se pueden desarrollar a espaldas de la sociedad, sino escuchando e involucrándola todo el tiempo.
                 </div>
+                <hr />
                 <div className={style.text}>
                     Apuntamos a los objetivos de mejorar las condiciones de vida urbana, contribuir a la producción de ciudadanía,
                     la erradicación del clientelismo,  la transparencia de la gestión pública y a la distribución más justa de las
