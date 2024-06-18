@@ -18,7 +18,7 @@
 }
 
 .logo:hover {
-    width: 37vw;
+    width: 36vw;
 }
 
 .text_logo {
@@ -42,7 +42,7 @@
 }
 
 .text_logo:hover {
-    font-size: 1.44rem;
+    opacity: 90%;
 }
 
 .mainImage {

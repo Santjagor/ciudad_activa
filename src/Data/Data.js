@@ -6,7 +6,7 @@ export const sections = [
     },
     {
         id: 2,
-        name: "Foros",
+        name: "Foros de Seguridad",
         image: "Section2.png",
     },
     {
