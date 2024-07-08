@@ -2,12 +2,18 @@ import logo from './logo.svg';
 import './App.css';
 import Home from './View/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
-import Section from './Components/Section/Section'
 import Footer from './Components/Footer/Footer'
 import MainArticle from './View/MainArticle/MainArticle'
 import { Route, Routes } from 'react-router-dom';
 import Post from './Components/Post/Post';
 import { useNavigate } from 'react-router-dom'
+
+//Sections//
+import Section1 from './View/Sections/Section-1/Section1'
+import Section2 from './View/Sections/Section-2/Section2'
+import Section3 from './View/Sections/Section-3/Section3'
+//Sections//
+
 
 function App() {
   const navigate = useNavigate()
@@ -17,7 +23,7 @@ function App() {
   }
 
   const handleSections = (e) => {
-    navigate(`/section/${e.target.id}`)
+    navigate(`/section-${e.target.id}`)
   }
 
   return (
@@ -35,8 +41,9 @@ function App() {
               handleSections={handleSections}
             />
           } />
-        <Route path='/section/:id' element={<Section />} />
-        <Route path='/post/:id' element={<Post />} />
+        <Route path='/section-1' element={<Section1 />} />
+        <Route path='/section-2' element={<Section2 />} />
+        <Route path='/section-3' element={<Section3 />} />
         <Route path='/main-article' element={<MainArticle />} />
       </Routes>
       <Footer />
