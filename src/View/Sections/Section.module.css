@@ -1,0 +1,80 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.articleContainer {
+    width: 65%;
+}
+
+.topImageContainer {
+    height: 30vh;
+    overflow: hidden;
+    margin-bottom: 2rem;
+}
+
+.topImage {
+    animation-name: breathe;
+    animation-duration: 25s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+    width: 100%;
+    object-fit: cover;
+}
+
+.title {
+    cursor: default;
+    font-family: title;
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: var(--primary-title-size);
+    transform: translate(0%, 0%);
+    transition: all .2s ease-in-out;
+}
+
+.title:hover {
+    transform: translate(3%, 0%);
+    transition: all .2s ease-in-out;
+}
+
+.subtitle {
+    margin-top: 2rem;
+    font-family: title;
+    color: var(--primary-title-color);
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+.list {
+    color: var(--primary-title-color);
+    width: fit-content;
+}
+
+.text {
+    font-family: text;
+    font-size: var(--primary-text-size);
+    color: var(--primary-text-color);
+    text-align: justify;
+    margin-bottom: 1rem;
+}
+
+.text_strong {
+    font-family: text;
+    font-weight: bolder;
+    font-size: var(--secondary-text-size);
+    color: var(--primary-color);
+    text-align: center;
+    margin: 1.8rem 0 1.8rem 0;
+}
+
+.image {
+    width: 40%;
+    object-fit: cover;
+}
+
+.box {
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 1rem;
+}
