@@ -14,6 +14,16 @@ export const sections = [
         name: "Fondo Urbano",
         image: "Section3.png",
     },
+    {
+        id: "fondo-urbano",
+        name: "Fondo Urbano",
+        image: "Section3.png",
+    },
+    {
+        id: "fondo-urbano",
+        name: "Fondo Urbano",
+        image: "Section3.png",
+    },
 ]
 
 export const blog = [

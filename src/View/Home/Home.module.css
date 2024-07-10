@@ -68,6 +68,10 @@
     margin: 4px;
 }
 
+.sectionContainer img{
+    object-position: 60%;
+}
+
 .sectionContainer:hover {
     .section {
         cursor: pointer;
@@ -76,12 +80,13 @@
     }
 
     .sectionTitle {
-        font-size: 60px;
+        font-size: 40px;
         transform: translate(-50%, -50%);
     }
 }
 
 .sectionTitle {
+    letter-spacing: 1px;
     width: 100%;
     position: absolute;
     top: 50%;
@@ -89,9 +94,9 @@
     z-index: 1;
     color: white;
     font-weight: bold;
-    font-size: 40px;
+    font-size: 20px;
     font-family: title;
-    transform: translate(-50%, 200%);
+    transform: translate(-50%, 500%);
     cursor: pointer;
     pointer-events: none;
     transition: 0.2s ease-in-out;
