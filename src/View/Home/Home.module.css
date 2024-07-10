@@ -136,6 +136,7 @@
     overflow: hidden;
     animation: appear 0.7s;
     margin-bottom: 20px;
+    padding-bottom: 2rem;
 }
 
 .postTitle {
@@ -158,6 +159,7 @@
     color: var(--primary-text-color);
     font-family: text;
     margin-bottom: 10px;
+    height: 80px;
 }
 
 .viewMore {
