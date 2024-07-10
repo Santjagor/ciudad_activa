@@ -4,7 +4,7 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
 
 export default function Home({ handleSections }) {
-    const [numPosts, setNumPosts] = useState(3)
+    const [numPosts, setNumPosts] = useState(6)
     const navigate = useNavigate()
 
     let lastPosts = blog.slice(0, numPosts)
@@ -13,6 +13,10 @@ export default function Home({ handleSections }) {
         if (numPosts - 1 <= blog.length - 1) {
             setNumPosts(numPosts + 3)
             lastPosts = blog.slice(0, numPosts)
+            let scrollCoord = window.scrollY + 300
+            setTimeout(() => {
+                window.scrollTo({ top: scrollCoord, left: 0, behavior: 'smooth' });
+            }, 1);
         }
     }
 

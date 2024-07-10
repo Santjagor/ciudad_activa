@@ -35,7 +35,7 @@ a {
 .button {
     color: white;
     font-family: text;
-    font-size: .9rem;
+    font-size: .8rem;
     opacity: 80%;
     transition: 0.2s ease-in-out;
     letter-spacing: .2rem;
