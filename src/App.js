@@ -22,7 +22,8 @@ function App() {
   }
 
   const handleSections = (e) => {
-    navigate(`/section-${e.target.id}`)
+    navigate(`/${e.target.id}`)
+    window.scrollTo({ top: 0, behavior: 'smooth' });
   }
 
   return (
@@ -40,9 +41,9 @@ function App() {
               handleSections={handleSections}
             />
           } />
-        <Route path='/section-1' element={<Section1 />} />
-        <Route path='/section-2' element={<Section2 />} />
-        <Route path='/section-3' element={<Section3 />} />
+        <Route path='/transporte-publico' element={<Section1 />} />
+        <Route path='/foros-de-seguridad' element={<Section2 />} />
+        <Route path='/fondo-urbano' element={<Section3 />} />
         <Route path='/main-article' element={<MainArticle />} />
       </Routes>
       <Footer />

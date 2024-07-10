@@ -1,16 +1,16 @@
 export const sections = [
     {
-        id: 1,
+        id: "transporte-publico",
         name: "Transporte Público",
         image: "Section1.png",
     },
     {
-        id: 2,
+        id: "foros-de-seguridad",
         name: "Foros de Seguridad",
         image: "Section2.png",
     },
     {
-        id: 3,
+        id: "fondo-urbano",
         name: "Fondo Urbano",
         image: "Section3.png",
     },

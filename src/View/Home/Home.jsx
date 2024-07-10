@@ -16,6 +16,10 @@ export default function Home({ handleSections }) {
         }
     }
 
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [])
+
     return (
         <div>
             <div className={styles.mainImageContainer}>
