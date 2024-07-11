@@ -31,7 +31,7 @@
 .button {
     color: white;
     font-family: text;
-    font-size: .75rem;
+    font-size: .80rem;
     opacity: 80%;
     transition: 0.2s ease-in-out;
     letter-spacing: .13rem;
@@ -45,7 +45,7 @@
 .button_active {
     color: white;
     font-family: text;
-    font-size: .75rem;
+    font-size: .80rem;
     opacity: 50%;
     transition: 0.2s ease-in-out;
     letter-spacing: .13rem;
