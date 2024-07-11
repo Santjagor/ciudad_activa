@@ -1,5 +1,5 @@
 import style from '../Section.module.css'
-import Index from '../../../Components/Index/Index'
+import SidePanel from '../../../Components/SidePanel/SidePanel'
 
 export default function Section() {
 
@@ -14,7 +14,7 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
-                    <div id='Inicio' className={style.title}>Proyecto Presentado</div>
+                <div id='Inicio' className={style.title}>Proyecto Presentado</div>
                 <div className={style.articleContainer}>
                     <hr />
 
@@ -97,7 +97,7 @@ export default function Section() {
                     <div className={style.text}><strong>ART 19.- </strong>En caso de registrarse conflictos y/o cuestiones de interpretación, intervendrá en su resolución la autoridad de Seguimiento y Aplicación.</div>
                     <div className={style.text}><strong>ART 20.- </strong>De Forma.</div>
                 </div>
-                <Index points={points} />
+                <SidePanel points={points} />
             </div>
         </div>
     )

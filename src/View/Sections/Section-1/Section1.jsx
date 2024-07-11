@@ -1,5 +1,5 @@
 import style from '../Section.module.css'
-import Index from '../../../Components/Index/Index'
+import SidePanel from '../../../Components/SidePanel/SidePanel'
 
 export default function Section() {
 
@@ -14,7 +14,7 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
-                    <div id='Inicio' className={style.title}>Transporte público eficiente</div>
+                <div id='Inicio' className={style.title}>Transporte público eficiente</div>
                 <div className={style.articleContainer}>
                     <div className={style.text}>El transporte público nos da la oportunidad de problematizar la movilidad urbana en su conjunto, generando aportes para reducir la siniestralidad creciente, la congestión, favorecer la movilidad activa y mitigar daños ambientales, así como el modelo de ciudad que queremos, entendiendo que el Transporte Público de Pasajeros (TPP) es mucho más que cómo nos movemos, es una herramienta de desarrollo de la ciudad y de acceso a los diferentes servicios públicos y privados que esta brinda, un igualador que reduce las desigualdades entre el vecino que vive en cualquiera de los diferentes territorios que componen nuestra ciudad.</div>
                     <div className={style.text}>Entendiendo lo anterior tenemos una serie de ejes que creemos que deben configurar el pliego y en consecuencia están atados a una serie de propuestas de modificación.</div>
@@ -47,7 +47,7 @@ export default function Section() {
                     <div className={style.text}>El último punto es poner a consideración el rol de ordenador urbano y del tránsito que tiene el TPP lo que <strong>puede aportar a mejorar dos problemáticas emergentes de la ciudad: Ambiente y Tránsito</strong>. Este último se ve agravado por el crecimiento del parque automotor en los últimos años, además de las problemáticas de educación vial y siniestralidad que atraviesan la ciudad. Sin embargo un mayor uso del TPP permitiría menos congestiones de tránsito y circulación en vehículos privados que redundaría en menos siniestros. Por otro lado, la utilización de medios de transporte masivos y menos vehículos privados reduce el consumo de combustibles y emisiones. Una constante <strong>campaña de concientización compartida por el Estado y las Empresas para fomentar el uso del micro en detrimento del transporte privado</strong> aportaría a concebir el aporte del TPP en este sentido.</div>
                     <div className={style.text}>Finalmente proponemos la <strong>aplicación e integración del subsistema de transporte público de bicicletas (TPB) con el transporte público de pasajeros (TPP)</strong>. Este subsistema ha sido largamente demorado desde la sanción de la Ordenanza 14.710 que impulsaba dentro del sistema SUMO el servicio de bicicletas públicas. Por eso, proponemos que el Municipio adopte la incorporación de estaciones automatizadas año a año,   para su puesta en marcha y promover el uso de la bicicleta como práctica saludable y complementaria del TPP.</div>
                 </div>
-                <Index points={points} />
+                <SidePanel points={points} />
             </div>
         </div>
     )

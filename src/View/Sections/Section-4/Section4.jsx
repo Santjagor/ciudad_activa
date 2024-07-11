@@ -1,5 +1,5 @@
 import style from '../Section.module.css'
-import Index from '../../../Components/Index/Index'
+import SidePanel from '../../../Components/SidePanel/SidePanel'
 
 export default function Section() {
 
@@ -14,7 +14,7 @@ export default function Section() {
                 <div className={style.articleContainer}>
 
                 </div>
-                <Index points={points} />
+                <SidePanel points={points} />
             </div>
         </div>
     )
