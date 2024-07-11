@@ -41,10 +41,6 @@
     transition: all .2s ease-in-out;
 }
 
-.text_logo:hover {
-    opacity: 90%;
-}
-
 .mainImage {
     width: 100%;
     object-fit: cover;
@@ -196,7 +192,7 @@
 }
 
 .morePosts:hover {
-    letter-spacing: 4px;
+    letter-spacing: 2px;
 }
 
 @keyframes breathe {
