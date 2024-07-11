@@ -16,7 +16,7 @@ export default function Blog() {
         }
     }
     return (
-        <div id='blog' className={styles.blogContainer}>
+        <div id='noticias' className={styles.blogContainer}>
             <div className={styles.title}>ULTIMAS NOTICIAS</div>
             <div className={styles.postContainer}>
                 {lastPosts.map(post => {

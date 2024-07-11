@@ -21,8 +21,8 @@ export default function Navbar({ handleBlog, handleSections, navigate }) {
                         </div>
                     )
                 })}
-                <a onClick={handleBlog} href="#blog">
-                    <div className={styles.button}>Blog</div>
+                <a onClick={handleBlog} href="#noticias">
+                    <div className={styles.button}>Noticias</div>
                 </a>
             </div>
         </div>
