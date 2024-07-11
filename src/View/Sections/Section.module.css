@@ -1,11 +1,13 @@
 .container {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    padding-bottom: 5rem;
 }
 
 .articleContainer {
-    width: 65%;
+    width: 55%;
 }
 
 .topImageContainer {
@@ -39,7 +41,7 @@
 }
 
 .subtitle {
-    margin-top: 2rem;
+    padding-top: 4rem;
     font-family: title;
     color: var(--primary-title-color);
     font-size: 2rem;
@@ -47,8 +49,15 @@
 }
 
 .list {
-    color: var(--primary-title-color);
+    color: var(--primary-text-color);
     width: fit-content;
+    font-family: text;
+    text-align: left;
+    font-size: var(--primary-text-size);
+}
+
+.list li { 
+    margin-bottom: .4rem;
 }
 
 .text {

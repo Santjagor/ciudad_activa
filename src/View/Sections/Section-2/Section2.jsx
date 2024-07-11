@@ -1,12 +1,21 @@
 import style from '../Section.module.css'
+import Index from '../../../Components/Index/Index'
 
 export default function Section() {
+
+    const points = [
+        "Inicio",
+        "Proyecto Ordenanza",
+        "De las funciones",
+        "De la autoridad de seguimiento y aplicación",
+        "De la constitución del foro",
+    ]
 
     return (
         <div>
             <div className={style.container}>
                 <div className={style.articleContainer}>
-                    <div className={style.subtitle}>Proyecto Presentado</div>
+                    <div id='Inicio' className={style.subtitle}>Proyecto Presentado</div>
                     <div className={style.subtitle}>VISTO</div>
                     <div className={style.text}>La Ley Provincial de Seguridad 12154 sancionada en 1998; Y</div>
                     <div className={style.subtitle}>Considerando</div>
@@ -36,7 +45,7 @@ export default function Section() {
                     <div className={style.text}>Que, según dicha norma, la participación comunitaria se efectiviza en la actuación en los Foros Vecinales de Seguridad, los Foros Municipales de Seguridad, los Foros Departamentales de Seguridad, y por los Defensores Municipales de la Seguridad.</div>
                     <div className={style.text}>Que rige una tasa municipal afectada exclusivamente a temas de seguridad y accion comunitaria y preventiva.</div>
 
-                    <div className={style.subtitle}>PROYECTO DE ORDENANZA</div>
+                    <div id='Proyecto Ordenanza' className={style.subtitle}>PROYECTO DE ORDENANZA</div>
                     <div className={style.subtitle}>FOROS BARRIALES DE SEGURIDAD</div>
                     <div className={style.subtitle}>ALCANCE</div>
                     <div className={style.text}><strong>ART 1.- </strong>Créase en la ciudad de Tandil la figura de los Foros Barriales de Seguridad de acuerdo a la Ley Provincial Nº 12154.</div>
@@ -44,16 +53,16 @@ export default function Section() {
                     <div className={style.text}><strong>ART 3.- </strong>Configúrese un Registro Municipal oficial en la Secretaria de Protección Ciudadana para la inscripción de todas las personas, y organizaciones intermedias interesadas en participar en el Foro Barrial.</div>
                     <div className={style.text}><strong>ART 4.- </strong>El Foro Barrial estará integrado y podrán participar asociaciones civiles, iglesias, clubes, sindicatos, sociedades de fomento, escuelas, bibliotecas, entidades de bien público y ciudadanos en forma individual, previa inscripción de todos ellos en el registro municipal. Estos se organizarán y funcionarán según criterios de flexibilidad y operatividad.</div>
 
-                    <div className={style.subtitle}>DE LAS FUNCIONES.</div>
+                    <div id='De las funciones' className={style.subtitle}>DE LAS FUNCIONES.</div>
                     <div className={style.text}><strong>ART 5.- </strong>Las funciones del Foro Barrial serán, en cumplimiento del artículo 16 de la Ley 12154, las siguientes:</div>
-                    <ul>
+                    <ul className={style.list}>
                         <li>Entender e intervenir en todas las cuestiones atinentes a la seguridad pública vecinal.</li>
                         <li>Generar diagnósticos de la seguridad</li>
                         <li>Planificar acciones de prevención</li>
                         <li>Implementar un sistema de evaluación del servicio policial</li>
                         <li>Realizar propuestas de mejoramiento del servicio policial</li>
                         <li>Proponer e intervenir en planes y proyectos de prevención situacional, como:</li>
-                        <ul>
+                        <ul className={style.list}>
                             <li>Mejoras de espacios públicos para su recuperación</li>
                             <li>Colocación de luminarias</li>
                             <li>Limpiezas de baldíos</li>
@@ -66,13 +75,13 @@ export default function Section() {
                         <li>Invitar a las reuniones y dialogar con autoridades Provinciales, Judiciales, Policiales, Municipales y Legislativas para tratar asuntos de la seguridad ciudadana en el ámbito del foro y para el trabajo articulado y colaborativo.</li>
                     </ul>
 
-                    <div className={style.subtitle}>DE LA AUTORIDAD DE SEGUIMIENTO Y APLICACIÓN.</div>
+                    <div id='De la autoridad de seguimiento y aplicación' className={style.subtitle}>DE LA AUTORIDAD DE SEGUIMIENTO Y APLICACIÓN.</div>
                     <div className={style.text}><strong>ART 6.- </strong>Confórmese el Consejo Local  de Promoción, Seguimiento y Aplicación de los Foros Barriales, el cual estará integrado por la Secretaría/o de Protección Ciudadana, la presidencia de la Comisión de Seguridad, Género y DDHH y la autoridad del Foro Municipal, cuyas funciones serán; la de promocionar y supervisar la evolución y funcionamiento de los Foros Barriales y la de definir o establecer criterios de resolución o interpretación en caso de discordancia en los propios foros barriales.</div>
                     <div className={style.text}><strong>ART 7.- </strong>La convocatoria inicial para la reunión constitutiva será potestad del Consejo Local  de Promoción, Seguimiento y Aplicación de los Foros Barriales en base a un listado de aspirantes inscriptos por jurisdicción y en el registro municipal.</div>
                     <div className={style.text}><strong>ART 8.- </strong>El Consejo Local  de Promoción, Seguimiento y Aplicación de los Foros Barriales  realizará publicaciones por medios digitales, radiales y periódicos para difundir tanto la inscripción de aspirantes como la reunión constitutiva.</div>
                     <div className={style.text}><strong>ART 9.- </strong>El Consejo Local de Seguimiento y Aplicación de los Foros Barriales elaborará y difundirá programas formativos en seguridad ciudadana y comunitaria en articulación con la  subsecretaría de Participación Ciudadana de la provincia de Buenos Aires.</div>
 
-                    <div className={style.subtitle}>DE LA CONSTITUCIÓN DEL FORO.</div>
+                    <div id='De la constitución del foro' className={style.subtitle}>DE LA CONSTITUCIÓN DEL FORO.</div>
                     <div className={style.text}><strong>ART 10.- </strong>La asamblea constitutiva de conformación del Foro será presidida por el/la Secretario/a de Protección Ciudadana y el/la Presidente/a de la Comisión de Seguridad, Derechos Humanos y Género del Honorable Concejo Deliberante y el/la Presidente/a del Foro Municipal de Seguridad.</div>
                     <div className={style.text}><strong>ART 11.- </strong>El Órgano Deliberativo de cada Foro Barrial estará integrado por los representantes nominados por cada entidad u organización inscripta, en la cantidad de hasta 2 integrantes por organización.</div>
                     <div className={style.text}><strong>ART 12.- </strong>La asamblea constitutiva, convocará dentro de los 30 días de conformada, a la primera reunión del Foro Barrial, fijando día, hora y lugar, para la distribución de roles y/o cargos y el correspondiente orden del día.</div>
@@ -85,6 +94,7 @@ export default function Section() {
                     <div className={style.text}><strong>ART 19.- </strong>En caso de registrarse conflictos y/o cuestiones de interpretación, intervendrá en su resolución la autoridad de Seguimiento y Aplicación.</div>
                     <div className={style.text}><strong>ART 20.- </strong>De Forma.</div>
                 </div>
+                <Index points={points} />
             </div>
         </div>
     )

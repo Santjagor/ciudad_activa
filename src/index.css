@@ -23,14 +23,6 @@
   --secondary-text-size: 1.4rem;
 }
 
-ul {
-  color: var(--primary-text-color);
-  font-family: text;
-  font-weight: bold;
-  text-align: left;
-  font-size: var(--primary-text-size);
-}
-
 html {
   scroll-behavior: smooth;
 }

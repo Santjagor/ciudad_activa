@@ -46,8 +46,12 @@
 }
 
 .list {
-    color: var(--primary-title-color);
+    color: var(--primary-text-color);
     width: fit-content;
+    font-family: text;
+    font-weight: bold;
+    text-align: left;
+    font-size: var(--primary-text-size);
 }
 
 .text {
