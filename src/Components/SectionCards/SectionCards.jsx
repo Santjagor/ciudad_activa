@@ -10,7 +10,9 @@ export default function SectionCards({ handleSections }) {
                         <img src={sec.image}
                             className={styles.section}
                             id={sec.id}
-                            onClick={handleSections}>
+                            onClick={handleSections}
+                            loading='lazy'
+                        >
                         </img>
                         <div className={styles.sectionTitle}>{sec.name}</div>
                     </div>

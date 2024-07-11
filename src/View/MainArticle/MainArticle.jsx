@@ -4,7 +4,7 @@ export default function MainArticle() {
     return (
         <div className={style.container}>
             <div className={style.topImageContainer}>
-                <img className={style.topImage} src="/banner-1.jpg" alt="banner" />
+                <img className={style.topImage} src="/banner-1.jpg" alt="banner" loading='lazy' />
             </div>
             <div className={style.title}>GOBIERNO ABIERTO</div>
             <div className={style.title}>PARTICIPACION CIUDADANA</div>
@@ -35,7 +35,7 @@ export default function MainArticle() {
                     sociedad ejerce sobre sus instituciones y recursos.
                 </div>
                 <div className={style.box}>
-                    <img className={style.image} src="imagen-principal.jpg" alt="" />
+                    <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
                     <div>
                         <div className={style.text}>
                             Frente a la opacidad, el secretismo, el lenguaje críptico y las negociaciones bajo la mesa, proponemos la transparencia,
@@ -85,7 +85,7 @@ export default function MainArticle() {
                             elaboración y control de las políticas públicas. Más ciudadanía, es sinónimo de  mejores políticas públicas.
                         </div>
                     </div>
-                    <img className={style.image} src="imagen-principal.jpg" alt="" />
+                    <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
                 </div>
                 <hr />
                 <div className={style.text_strong}>

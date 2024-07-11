@@ -8,7 +8,7 @@ export default function BlogCard() {
         <a onClick={() => { navigate('/') }} className={style.container} href="#noticias">
             <div className={style.header}>ULTIMAS NOTICIAS</div>
             <div className={style.image_container}>
-                <img src={blog[0].image} alt="image" />
+                <img src={blog[0].image} alt="image" loading='lazy' />
             </div>
             <div className={style.title}>{blog[0].title}</div>
         </a>

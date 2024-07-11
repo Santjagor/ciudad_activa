@@ -25,7 +25,7 @@ export default function Blog() {
                             className={styles.post}
                             key={post.title}
                         >
-                            <img className={styles.postImage} src={post.image}></img>
+                            <img className={styles.postImage} src={post.image} loading='lazy'></img>
                             <div className={styles.postTitle}>{post.title}</div>
                             <hr />
                             <div className={styles.postDescription}>{post.description}</div>

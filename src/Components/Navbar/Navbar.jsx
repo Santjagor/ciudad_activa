@@ -7,7 +7,7 @@ export default function Navbar({ handleBlog, handleSections, navigate }) {
     return (
         <div className={styles.container}>
             <div className={styles.ncContainer}>
-                <img onClick={() => { navigate('/') }} className={styles.logo} src="Logo2.png" alt="" />
+                <img onClick={() => { navigate('/') }} className={styles.logo} src="Logo2.png" alt="logo" loading='lazy' />
             </div>
             <div className={styles.buttonContainer}>
                 {sections.map(section => {
