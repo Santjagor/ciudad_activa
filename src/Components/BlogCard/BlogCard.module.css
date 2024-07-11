@@ -1,0 +1,29 @@
+.container {
+    width: 90%;
+    cursor: pointer;
+}
+
+.header{
+    color: var(--primary-color);
+    font-weight: bold;
+    font-size: 1.7rem;
+    font-family: title;
+    margin-bottom: .5rem;
+}
+
+.image_container {
+    width: 100%;
+    overflow: hidden;
+}
+
+.image_container img {
+    width: 100%;
+}
+
+.title{
+    color: var(--primary-title-color);
+    /* font-weight: bold; */
+    font-size: 1.2rem;
+    font-family: title;
+    padding: .1rem;
+}

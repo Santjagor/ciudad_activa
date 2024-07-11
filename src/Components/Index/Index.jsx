@@ -2,7 +2,6 @@ import style from './Index.module.css'
 
 export default function Index({ points }) {
     return (
-        <div>
             <div className={style.container}>
                 <ul>
                     {
@@ -16,6 +15,5 @@ export default function Index({ points }) {
                     }
                 </ul>
             </div>
-        </div>
     )
 }
