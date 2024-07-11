@@ -23,6 +23,14 @@
   --secondary-text-size: 1.4rem;
 }
 
+a {
+  text-decoration: none;
+}
+
+strong{
+  color: var(--primary-title-color);
+}
+
 html {
   scroll-behavior: smooth;
 }

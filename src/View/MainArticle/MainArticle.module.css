@@ -2,16 +2,19 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-bottom: 5rem;
 }
 
 .articleContainer {
     width: 65%;
+    animation: appear .5s ease-in-out 0s 1 forwards;
 }
 
 .topImageContainer {
     height: 30vh;
     overflow: hidden;
     margin-bottom: 2rem;
+    animation: appear .5s ease-in-out 0s 1 forwards;
 }
 
 .topImage {
@@ -31,6 +34,7 @@
     font-size: var(--primary-title-size);
     transform: translate(0%, 0%);
     transition: all .2s ease-in-out;
+    animation: slideLeft 1s ease-in-out 0s 1;
 }
 
 .title:hover {
@@ -93,5 +97,25 @@
 
     100% {
         transform: scale(1.0);
+    }
+}
+
+@keyframes appear {
+    0% {
+        opacity: 0%;
+    }
+
+    100% {
+        opacity: 100%;
+    }
+}
+
+@keyframes slideLeft {
+    0% {
+        transform: translate(-300%, 0%);
+    }
+
+    100% {
+        transform: translate(0%, 0%);
     }
 }

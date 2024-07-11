@@ -14,11 +14,13 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
+                    <div id='Inicio' className={style.title}>Proyecto Presentado</div>
                 <div className={style.articleContainer}>
-                    <div id='Inicio' className={style.subtitle}>Proyecto Presentado</div>
+                    <hr />
+
                     <div className={style.subtitle}>VISTO</div>
                     <div className={style.text}>La Ley Provincial de Seguridad 12154 sancionada en 1998; Y</div>
-                    <div className={style.subtitle}>Considerando</div>
+                    <div className={style.subtitle_2}>Considerando</div>
                     <div className={style.text}>Que, la seguridad es un tema integral que excede ampliamente lo puramente policial.</div>
                     <div className={style.text}>Que, se debe actuar sobre las causas de la violencia social con todos los instrumentos disponibles.</div>
                     <div className={style.text}>Que, es necesario el control comunitario del funcionamiento policial</div>
@@ -44,10 +46,11 @@ export default function Section() {
                     <div className={style.text}>Que, según la ley 12154, la seguridad es un derecho de los habitantes de la Provincia de Buenos Aires y un deber de su Gobierno promover la efectiva participación comunitaria en la elaboración, implementación y control de las políticas de seguridad pública, conforme a la presente Ley.</div>
                     <div className={style.text}>Que, según dicha norma, la participación comunitaria se efectiviza en la actuación en los Foros Vecinales de Seguridad, los Foros Municipales de Seguridad, los Foros Departamentales de Seguridad, y por los Defensores Municipales de la Seguridad.</div>
                     <div className={style.text}>Que rige una tasa municipal afectada exclusivamente a temas de seguridad y accion comunitaria y preventiva.</div>
+                    <hr />
 
                     <div id='Proyecto Ordenanza' className={style.subtitle}>PROYECTO DE ORDENANZA</div>
-                    <div className={style.subtitle}>FOROS BARRIALES DE SEGURIDAD</div>
-                    <div className={style.subtitle}>ALCANCE</div>
+                    <div className={style.subtitle_2}>FOROS BARRIALES DE SEGURIDAD</div>
+                    <div className={style.subtitle_2}>ALCANCE</div>
                     <div className={style.text}><strong>ART 1.- </strong>Créase en la ciudad de Tandil la figura de los Foros Barriales de Seguridad de acuerdo a la Ley Provincial Nº 12154.</div>
                     <div className={style.text}><strong>ART 2.- </strong>Se entiende por <strong><em>Foros Barriales de Seguridad</em></strong> a aquella organización vecinal nucleada en el ámbito territorial de cada comisaría. El foro vecinal estará integrado por las entidades comunitarias correspondientes a la jurisdicción de cada comisaría.</div>
                     <div className={style.text}><strong>ART 3.- </strong>Configúrese un Registro Municipal oficial en la Secretaria de Protección Ciudadana para la inscripción de todas las personas, y organizaciones intermedias interesadas en participar en el Foro Barrial.</div>

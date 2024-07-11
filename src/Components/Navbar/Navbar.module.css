@@ -11,10 +11,6 @@
     z-index: 100;
 }
 
-a {
-    text-decoration: none;
-}
-
 .ncContainer{
     display: flex;
 }
@@ -35,10 +31,10 @@ a {
 .button {
     color: white;
     font-family: text;
-    font-size: .8rem;
+    font-size: .75rem;
     opacity: 80%;
     transition: 0.2s ease-in-out;
-    letter-spacing: .2rem;
+    letter-spacing: .13rem;
 }
 
 .button:hover {

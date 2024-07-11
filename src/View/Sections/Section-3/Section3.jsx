@@ -11,8 +11,8 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
+                <div id='Inicio' className={style.title}>Vivienda e integración urbana</div>
                 <div className={style.articleContainer}>
-                    <div id='Inicio' className={style.subtitle}>Vivienda e integración urbana</div>
                     <div className={style.text}>Los datos del último censo reportan que Tandil evidencia el mas bajo nivel de acceso a la vivienda propia en la Provincia de Buenos Aires.</div>
                     <div className={style.text}>La ordenanza Nª 9.865, Plan de Desarrollo Territorial, establece en su principio general, la creación de instrumentos redistributivos de la renta urbana. En dicha ordenanza su capítulo 1º procura asegurar respuestas a las necesidades de los ciudadanos en cuanto a la calidad de vida y la justicia social.</div>
                     <div className={style.text}>Promovemos la reducción de las desigualdades facilitando el acceso a la tierra urbana. Buscando impulsar procesos de mejora e integración socio urbana y  el acceso legal  de los sectores populares a la ciudad.</div>
@@ -20,6 +20,8 @@ export default function Section() {
                     <div className={style.text}>En dicho apartado, establece  los destinos del Fondo de Desarrollo Urbano y los recursos que constituirán dicho fondo.</div>
                     <div className={style.text}>También establece que esto será determinado por el Concejo deliberante mediante ordenanza especial.</div>
                     <div className={style.text}>Comparto la ordenanza presentada, que debemos impulsar para mitigar el problema de déficit habitacional en nuestra ciudad.</div>
+                    <hr />
+
                     <div id='Articulos' className={style.subtitle}>Articulos</div>
                     <div className={style.text}><strong>Artículo 1º: </strong>Modifíquese el articulado de la ordenanza Nº 12680, el cual quedará redactado de la siguiente manera:</div>
                     <div className={style.text}>-Crease como fondo afectado el “Fondo de desarrollo urbano” mediante una cuenta especial creada a tal efecto, el cual será constituido con los siguientes recursos:</div>
