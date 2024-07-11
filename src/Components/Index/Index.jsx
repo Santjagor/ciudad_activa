@@ -7,7 +7,7 @@ export default function Index({ points }) {
                     {
                         points.map(p => {
                             return (
-                                <a href={`#${p}`}>
+                                <a key={p} href={`#${p}`}>
                                     <li>{p}</li>
                                 </a>
                             )

@@ -6,10 +6,9 @@ export default function SectionCards({ handleSections }) {
         <div className={styles.sections}>
             {sections.map(sec => {
                 return (
-                    <div className={styles.sectionContainer}>
+                    <div key={sec.id} className={styles.sectionContainer}>
                         <img src={sec.image}
                             className={styles.section}
-                            key={sec.id}
                             id={sec.id}
                             onClick={handleSections}>
                         </img>

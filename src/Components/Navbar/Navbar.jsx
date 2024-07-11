@@ -14,6 +14,7 @@ export default function Navbar({ handleBlog, handleSections, navigate }) {
                     return (
                         <div
                             id={section.id}
+                            key={section.id}
                             onClick={handleSections}
                             className={location.pathname === `/${section.id}` ? styles.button_active : styles.button}
                         >

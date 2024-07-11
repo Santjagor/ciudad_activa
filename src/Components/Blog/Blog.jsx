@@ -23,8 +23,7 @@ export default function Blog() {
                     return (
                         <div
                             className={styles.post}
-                            key={post.id}
-                            id={post.id}
+                            key={post.title}
                         >
                             <img className={styles.postImage} src={post.image}></img>
                             <div className={styles.postTitle}>{post.title}</div>
