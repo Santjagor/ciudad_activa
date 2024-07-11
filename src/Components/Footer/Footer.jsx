@@ -4,8 +4,12 @@ import { AiFillFacebook, AiFillInstagram } from "react-icons/ai";
 export default function Footer() {
     return (
         <div className={styles.container}>
-            <AiFillFacebook className={styles.icon} />
-            <AiFillInstagram className={styles.icon} />
+            <a className={styles.icon} href="https://www.facebook.com/NicoCarrilloTandil" target='_blank'>
+                <AiFillFacebook />
+            </a>
+            {/* <a className={styles.icon} href="">
+                <AiFillInstagram />
+            </a> */}
         </div>
     )
 }
