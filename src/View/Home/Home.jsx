@@ -2,6 +2,7 @@ import styles from './Home.module.css'
 import { sections, blog } from '../../Data/Data'
 import { useNavigate } from 'react-router-dom'
 import { useEffect, useState } from 'react'
+import SectionCards from '../../Components/SectionCards/SectionCards'
 
 export default function Home({ handleSections }) {
     const [numPosts, setNumPosts] = useState(6)
@@ -31,21 +32,7 @@ export default function Home({ handleSections }) {
                 <img onClick={() => { navigate('/main-article') }} className={styles.logo} src="Logo.png" alt="" />
                 <div onClick={() => { navigate('/main-article') }} className={styles.text_logo}>Gobierno Abierto - Participación Ciudadana</div>
             </div>
-            <div className={styles.sections}>
-                {sections.map(sec => {
-                    return (
-                        <div className={styles.sectionContainer}>
-                            <img src={sec.image}
-                                className={styles.section}
-                                key={sec.id}
-                                id={sec.id}
-                                onClick={handleSections}>
-                            </img>
-                            <div className={styles.sectionTitle}>{sec.name}</div>
-                        </div>
-                    )
-                })}
-            </div>
+            <SectionCards handleSections={handleSections} />
             <div id='blog' className={styles.blogContainer}>
                 <div className={styles.title}>ULTIMAS NOTICIAS</div>
                 <div className={styles.postContainer}>
