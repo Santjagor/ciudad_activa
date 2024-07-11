@@ -15,13 +15,13 @@ export const sections = [
         image: "Section3.png",
     },
     {
-        id: "fondo-urbano",
-        name: "Fondo Urbano",
+        id: "produccion",
+        name: "Producción",
         image: "Section3.png",
     },
     {
-        id: "fondo-urbano",
-        name: "Fondo Urbano",
+        id: "consumo-problematico",
+        name: "Consumo Problemático",
         image: "Section3.png",
     },
 ]

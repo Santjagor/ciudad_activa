@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 import Home from './View/Home/Home';
 import Navbar from './Components/Navbar/Navbar';
@@ -11,6 +10,8 @@ import { useNavigate } from 'react-router-dom'
 import Section1 from './View/Sections/Section-1/Section1'
 import Section2 from './View/Sections/Section-2/Section2'
 import Section3 from './View/Sections/Section-3/Section3'
+import Section4 from './/View/Sections/Section-4/Section4'
+import Section5 from './/View/Sections/Section-5/Section5'
 //Sections//
 
 
@@ -44,6 +45,8 @@ function App() {
         <Route path='/transporte-publico' element={<Section1 />} />
         <Route path='/foros-de-seguridad' element={<Section2 />} />
         <Route path='/fondo-urbano' element={<Section3 />} />
+        <Route path='/produccion' element={<Section4 />} />
+        <Route path='/consumo-problematico' element={<Section5 />} />
         <Route path='/main-article' element={<MainArticle />} />
       </Routes>
       <Footer />
