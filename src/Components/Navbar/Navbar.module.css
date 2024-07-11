@@ -33,9 +33,9 @@
     font-family: text;
     font-size: .80rem;
     opacity: 80%;
-    transition: 0.2s ease-in-out;
     letter-spacing: .13rem;
     cursor: pointer;
+    padding-bottom: 3px;
 }
 
 .button:hover {
@@ -46,10 +46,11 @@
     color: white;
     font-family: text;
     font-size: .80rem;
-    opacity: 50%;
-    transition: 0.2s ease-in-out;
+    opacity: 80%;
     letter-spacing: .13rem;
     cursor: pointer;
+    border-bottom: 2px white solid;
+    padding-bottom: 1px;
 }
 
 @keyframes appear {
