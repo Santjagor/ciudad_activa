@@ -38,9 +38,9 @@
     z-index: 1;
     color: white;
     font-weight: bold;
-    font-size: 20px;
+    font-size: 30px;
     font-family: title;
-    transform: translate(-50%, 500%);
+    transform: translate(-50%, 300%);
     cursor: pointer;
     pointer-events: none;
     transition: 0.2s ease-in-out;

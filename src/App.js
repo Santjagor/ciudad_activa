@@ -45,6 +45,7 @@ function App() {
       />
       <NavbarMobile
         toggleSideMenu={toggleSideMenu}
+        sideMenu={sideMenu}
         setSideMenu={setSideMenu}
         navigate={navigate}
       />
