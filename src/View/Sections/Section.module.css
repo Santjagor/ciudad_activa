@@ -18,12 +18,9 @@
 }
 
 .topImage {
-    animation-name: breathe;
-    animation-duration: 25s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
     width: 100%;
     object-fit: cover;
+    object-position: top;
 }
 
 .title {
@@ -120,5 +117,17 @@
     .articleContainer {
         width: 85%;
         animation: appear 1s ease-in-out 0s 1 forwards;
+    }
+    .topImageContainer {
+        margin-bottom: 0rem;
+    }
+    .topImage {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        object-position: top;
+    }
+    .title {
+        padding-top: 1rem;
     }
 }

@@ -14,6 +14,9 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
+                <div className={style.topImageContainer}>
+                    <img src="banner-transporte.png" alt="banner" className={style.topImage} />
+                </div>
                 <div id='Inicio' className={style.title}>Transporte público eficiente</div>
                 <div className={style.articleContainer}>
                     <div className={style.text}>El transporte público nos da la oportunidad de problematizar la movilidad urbana en su conjunto, generando aportes para reducir la siniestralidad creciente, la congestión, favorecer la movilidad activa y mitigar daños ambientales, así como el modelo de ciudad que queremos, entendiendo que el Transporte Público de Pasajeros (TPP) es mucho más que cómo nos movemos, es una herramienta de desarrollo de la ciudad y de acceso a los diferentes servicios públicos y privados que esta brinda, un igualador que reduce las desigualdades entre el vecino que vive en cualquiera de los diferentes territorios que componen nuestra ciudad.</div>

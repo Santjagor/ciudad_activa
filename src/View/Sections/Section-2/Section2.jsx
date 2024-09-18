@@ -14,6 +14,9 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
+                <div className={style.topImageContainer}>
+                    <img src="banner-foro.png" alt="" className={style.topImage} />
+                </div>
                 <div id='Inicio' className={style.title}>Proyecto Presentado</div>
                 <div className={style.articleContainer}>
                     <hr />

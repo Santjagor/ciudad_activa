@@ -11,6 +11,9 @@ export default function Section() {
     return (
         <div>
             <div className={style.container}>
+                <div className={style.topImageContainer}>
+                    <img src="banner-urbano.png" alt="" className={style.topImage} />
+                </div>
                 <div id='Inicio' className={style.title}>Vivienda e integración urbana</div>
                 <div className={style.articleContainer}>
                     <div className={style.text}>Los datos del último censo reportan que Tandil evidencia el mas bajo nivel de acceso a la vivienda propia en la Provincia de Buenos Aires.</div>
