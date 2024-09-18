@@ -66,7 +66,7 @@ function App() {
         <Route path='/transporte-publico' element={<Section1 />} />
         <Route path='/foros-de-seguridad' element={<Section2 />} />
         <Route path='/fondo-urbano' element={<Section3 />} />
-        <Route path='/main-article' element={<MainArticle />} />
+        <Route path='/ciudad-que-late' element={<MainArticle />} />
       </Routes>
       <Footer />
     </div>

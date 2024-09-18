@@ -1,5 +1,10 @@
 export const sections = [
     {
+        id: "ciudad-que-late",
+        name: "Ciudad Que Late",
+        image: "Logo4.png",
+    },
+    {
         id: "transporte-publico",
         name: "Transporte Público",
         image: "Section1.png",

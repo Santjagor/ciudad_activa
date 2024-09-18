@@ -18,10 +18,6 @@
 }
 
 .topImage {
-    animation-name: breathe;
-    animation-duration: 25s;
-    animation-timing-function: ease-in-out;
-    animation-iteration-count: infinite;
     width: 100%;
     object-fit: cover;
 }
@@ -45,16 +41,25 @@
 .subtitle {
     margin-top: 2rem;
     font-family: title;
-    color: var(--primary-title-color);
+    color: white;
     font-size: 2rem;
+    background-color: var(--primary-color);
+    padding: 1rem;
+    border-radius: 25px;
 }
 
 .list {
-    color: var(--primary-text-color);
+    color: white;
     width: fit-content;
     font-family: text;
     text-align: left;
     font-size: var(--primary-text-size);
+}
+
+.list li{
+    padding: 1rem;
+    background-color: var(--primary-color);
+    border-radius: 25px;
 }
 
 .text {
@@ -68,6 +73,7 @@
 .text_strong {
     font-family: text;
     font-weight: bolder;
+    font-style: italic;
     font-size: var(--secondary-text-size);
     color: var(--primary-color);
     text-align: center;
@@ -87,20 +93,6 @@
 
 .logo{
     width: 100%;
-}
-
-@keyframes breathe {
-    0% {
-        transform: scale(1.0);
-    }
-
-    50% {
-        transform: scale(1.1);
-    }
-
-    100% {
-        transform: scale(1.0);
-    }
 }
 
 @keyframes appear {
@@ -129,19 +121,14 @@
     .articleContainer {
         width: 90%;
     }
+    .topImage {
+        width: 100%;
+        height: 100%;
+    }
     .box{
         flex-direction: column;
     }
     .image{
         width: 100%;
-    }
-    .topImage {
-        animation-name: breathe;
-        animation-duration: 25s;
-        animation-timing-function: ease-in-out;
-        animation-iteration-count: infinite;
-        width: 100%;
-        height: 100%;
-        object-fit: cover;
     }
 }
