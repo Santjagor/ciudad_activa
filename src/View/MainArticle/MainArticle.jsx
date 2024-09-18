@@ -6,118 +6,66 @@ export default function MainArticle() {
             <div className={style.topImageContainer}>
                 <img className={style.topImage} src="/banner-1.jpg" alt="banner" loading='lazy' />
             </div>
-            <div className={style.title}>GOBIERNO ABIERTO</div>
-            <div className={style.title}>PARTICIPACION CIUDADANA</div>
-            <div className={style.title}>PODER VECINAL</div>
             <div className={style.articleContainer}>
+                <img src="Logo4.png" alt="logo" className={style.logo} />
                 <hr />
-                <div className={style.subtitle}>Un desafío en marcha</div>
+                <div className={style.subtitle}>De la polis que sueña, a la ciudad que se mueve…</div>
+                <br /><br />
+                <div className={style.text}>
+                    El poder perpetuo que profundiza la grieta social, estrecha los caminos y agota la empatía, se envuelve de gris y pena. Son unos pocos los que sueñan con realidades que se palpan; el resto, la masa mayoritaria, aguarda a que la antítesis emerja y la síntesis – finalmente – active la verdadera ciudad que todo lo tiene, que todo lo genera.
+                </div>
+                <div className={style.text}>
+                    La política se construye desde una cultura antagónica, que empuja sus contradicciones y revoluciona, para evolucionar hacia la mejor forma de sociedad real, ya no líquida, ya no atravesada por la antipatía individual y narcisista.
+                </div>
+                <div className={style.box}>
+                    <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
+                    <div>
+                        <div className={style.text}>
+                            La ciudad aletargada, que crece y muestra su estirpe de pura sangre, no deja de abrir heridas, sin cerrar las antiguas, sin evitar las que vendrán. Es momento de salir del sueño y asistir al valor del compromiso colectivo que active los sentidos y despierte un ciclo que abrace a las grandes y verdaderas mayorías.
+                        </div>
+                        <div className={style.text}>
+                            La realización personal, en el reflejo de ese “otro” que es distinto a nosotros, pero que goza plenamente de esa realización, a la que muchos solo llegan a través de viaje utópico, nos ha hundido en esa nueva alienación. El Hombre actual se sumerge en profecías auto cumplidas, en sacrificios que expresan el triunfo del competidor aislado, del meritocrático, cuya cosmética oculta un reflejo de lo que debe elevarse: la multitud cooperante.
+                        </div>
+                    </div>
+                </div>
+                <div className={style.text}>
+                    Tandil oculta un lado que segrega, y margina a un amplio sector de su pueblo; el crecimiento, sin distribución, sin efecto derrame, sin equidad y sin la presencia del Estado en sectores clave, para el desarrollo óptimo de cualquier sociedad. Es momento de potenciar la inclusión, la formalización de las actividades que también otorgan valor agregado; un valor que se relaciona con la cooperación, con puentes para el desarrollo, con polos de atracción que generen productividad, mercado, proveeduría y conectividad.
+                </div>
+                <div className={style.text}>
+                    La renovación debe surgir de acuerdos, no ya un mero consenso respecto a cómo vemos algo, sin demasiado involucramiento, que focalicen en denominadores comunes; es decir, sobre la base de:
+                </div>
                 <ul className={style.list}>
-                    <li>Democratizar la democracia.</li>
-                    <li>Redistribuir el poder.</li>
-                    <li>Ocupar la política.</li>
-                    <li>Gobernabilidad participativa.</li>
+                    <li>una reconfiguración de las relaciones laborales en un contexto donde el capital transnacional (global y globalizante) prescinde del empleo y del trabajo convencional, como instrumento central para la generación de utilidades; la marcada estratificación de los ingresos y de los rubros que se establecen como puntales de los mismos, excluye un amplio porcentaje de la población que ingresa al empleo informal, no registrado y precarizado, frente al cada vez más concentrado segmento de ingresos altos, cuya concentración bifurca cualquier promedio representativo;</li>
+                    <br />
+                    <li>un equitativo esquema de acceso al crédito y a la financiación, que permita incrementar las posibilidades de que la vivienda se convierta en realidad, sobre la base de engranajes entre la construcción, el empleo, el crédito y el capital; asistimos, desde hace varios lustros, a un incremento del valor de la tierra, para inversiones particulares, con escasa (o nula) intervención del Estado, no solo como regulador, sino también como socio estratégico de un crecimiento demográfico y socioeconómico, equilibrado; muchos inquilinos, concentración de propietarios, valores por encima de la media del mercado, restricción de acceso al crédito, ausencia del estado como rector del proceso; </li>
+                    <br />
+                    <li>Tandil, a contramano de su estética e imágen relacionada con la naturaleza y el medio ambiente, esconde un mecanismo de rendición - y entrega - del capital verde a las grandes corporaciones, no sólo vinculadas al complejo agro industrial exportador, sino también al conglomerado inmobiliario-turístico, con una fuerte impronta pro mercado, en detrimento de las modernas metrópolis sustentables, donde la armónica convivencia entre el avance de la modernidad amalgame procesos sustentables; es necesario un fuerte compromiso del Estado, en materia de regulación y planificación - sin que antes se garantice la protección - de la explotación de los suelos urbanos y periurbanos, debemos tener como bandera la preservación de nuestro cordon serrano, y evitar la actual dispersión urbanística; </li>
+                    <br />
+                    <li>la conformación de alianzas estratégicas con el capital, con miras a la conformación de cordones productivos que revalorizan y robustecen el producto originario, con manufactura y elaboración; garantizando fuentes de trabajo, una vuelta al trabajo agrario-urbano, con una fuerte interrelación entre las zonas peri urbanas, el despoblado campo y las grandes urbanizaciones;</li>
+                    <br />
+                    <li>diseño de matrices productivas exportadoras con tramo de producción de valor, para garantizar no ya la exportación de materia prima y commodities, sino productos de elaboración y valor agregado desde la base de la cadena; la denominación de origen y el denominado kilómetro cero, entran en esta dinámica central para el desarrollo;</li>
+                    <br />
+                    <li>identificación de nichos productivos - formales e informales - que permitan una correcta asignación de recursos estatales, que acompañen el desarrollo regional, formalicen las distintas actividades, gestión la capacitación y formación constante, incluso de oficios considerados obsoletos;</li>
+                    <br />
+                    <li>fortalecimiento del relacionamiento institucional, sobre la base de convenios regidos sobre el principio del desarrollo regional con trabajo y valor agregado; hablamos del sector académico - polo y nichos tecnológicos y de acompañamiento integral -, del sector que concentra en capital privado y toda su potencialidad de crecimiento y del Estado, donde la democracia se (re) configure y se convierta en generadora de recursos.</li>
                 </ul>
+                <br /><br />
                 <div className={style.text}>
-                    En un tiempo presente signado por diagnósticos críticos, sin esperanza ni aparente respuesta a los problemas
-                    cotidianos que atraviesa nuestra sociedad, es tiempo de potenciar la inteligencia colectiva, para abordar la
-                    complejidad de la democracia inmersa en una crisis, no solo global, sino estructural; donde sus cimientos han
-                    sido erosionados en los últimos veinte años, por una triada apocalíptica:
-                    <strong> Crisis política</strong>,
-                    <strong> crisis económica</strong>,
-                    <strong> crisis social</strong>.
-                </div>
-                <div className={style.text}>
-                    Los ámbitos donde esta potencialidad, la de anteponer lo colectivo por sobre lo individual, se puede desarrollar
-                    y manifestar firmemente, no se encuentran solo en lo Nacional – a partir, sobre todo, de la emergencia de la LLA
-                    – sino que existen distintos territorios donde esta disputa se hace necesaria. Lo local es el ámbito privilegiado
-                    para construir este tipo de experiencias. La desprivatización del Estado exige incrementar el control que la
-                    sociedad ejerce sobre sus instituciones y recursos.
-                </div>
-                <div className={style.box}>
-                    <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
-                    <div>
-                        <div className={style.text}>
-                            Frente a la opacidad, el secretismo, el lenguaje críptico y las negociaciones bajo la mesa, proponemos la transparencia,
-                            la comunicación permanente, la clarificación de los intereses y actores en cada decisión pública, la conformación de
-                            espacios estables de control social con un mínimo nivel de especialización y conocimiento.
-                        </div>
-                        <div className={style.text}>
-                            El gobierno Radical de Miguel Lunghi pone en evidencia su carácter de gobierno cada vez más  cerrado. Todas las decisiones
-                            se toman a espaldas de la sociedad, que no participa ni de la formulación ni del control de las políticas públicas.
-                            Además, el desgaste  de 20 años de gestión está acompañado de pérdida de políticas estratégicas, falta de cuadros para la
-                            gestión y reina la improvisación.
-                        </div>
-                    </div>
-                </div>
-                <div className={style.text}>
-                    En sus  primeros años de gobierno, esta forma de hacer, sin interacción con la ciudadanía, quedó solapada por el gran
-                    momento de crecimiento económico que vivió el país post crisis 2001, donde Tandil se capitalizo con obras de infraestructura,
-                    inversión privada, mayor presencia de la UNICEN y embellecimiento urbano.
-                </div>
-                <div className={style.text}>
-                    Pasados los años, con claros signos de estancamiento en la ciudad, es necesario que una nueva generación impulse el protagonismo
-                    ciudadano, sobre todo en los aspectos en los que la ciudad se ha quedado rezagada. Los problemas de movilidad urbana son cada
-                    vez mayores, la seguridad no tiene conducción política, es imposible acceder a una vivienda y al suelo urbano, y la falta de
-                    empatía gubernamental hacia los reclamos de los vecinos es vergonzoso.
-                </div>
-                <hr />
-                <div className={style.text_strong}>
-                    Nosotros elegimos una democracia donde el pueblo delibere con sus representantes todo el tiempo, no solo a través de ellos.
-                    Con un funcionamiento  cada vez más atento a las demandas de la sociedad.
-                </div>
-                <hr />
-                <div className={style.text}>
-                    No entendemos la participación ciudadana como antagónica a la participación política sino como fortalecimiento de la misma.
-                    No como fachada o fetiche de debates sectoriales sino como pueblo que se organiza para ser protagonista estratégico del
-                    modelo de ciudad que queremos, de fuerte construcción de comunidad. Se trata de una política de largo plazo y estructuradora
-                    de la gestión. No simplemente de un dispositivo de legitimación de la autoridad de turno.
+                    Sobre la base de este tipo de propuestas, se encuentra la voluntad política que acompañe el cambio. Tandil ha sido, con su potencialidad de crecimiento y su innegable empuje regional, una ciudad para pocos, donde son varios los sueños y pocas las realidades que se asemejan a la expectativa de las mayorías.
                 </div>
                 <div className={style.box}>
                     <div>
                         <div className={style.text}>
-                            Podemos mencionar como esbozo actual de dispositivos de ciudadanía,  el foro de seguridad, o la mesa contra la violencia género:
-                            a ambos espacios los tenemos que potenciar, fortalecer y brindar más herramientas. Otros espacios a crear rápidamente si somos
-                            gobierno, es el presupuesto participativo, el concejo municipal de hábitat, la elección democrática de los delegados de Vela,
-                            Gardey, y otras delegaciones a crearse, audiencias públicas, obras públicas cooperativas para la integración sociourbana,
-                            lucha comunitaria de prevención de adicciones,  concejo municipal deportivo, mesa para la preservación de las sierras, etc.
-                            La democracia no se reduce al sufragio. El diálogo debe continuar después de las elecciones. Los vecinos deben ser parte de la
-                            elaboración y control de las políticas públicas. Más ciudadanía, es sinónimo de  mejores políticas públicas.
+                            Vamos por una ciudad que resuelva los problemas presentes, convocando a la universidad, trabajadores, empresas, cultura y jóvenes. Una ciudad que convoque  a productores y consumidores, para que comprar alimentos sanos y bienes de calidad no sea un privilegio inaccesible. Una ciudad que planifique una movilidad urbana virtuosa entre las 4 avenidas, los barrios y la periferia urbano rural.
                         </div>
                     </div>
                     <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
                 </div>
                 <hr />
                 <div className={style.text_strong}>
-                    Las políticas públicas, no se pueden desarrollar a espaldas de la sociedad, sino escuchando e involucrándola todo el tiempo.
+                    Que creer y crecer… sea para todos y todas. Ciudad Activa, Tandil late, al calor de una filosofía del pueblo que abrace la solidaridad colectiva y la empatía.
                 </div>
                 <hr />
-                <div className={style.text}>
-                    Apuntamos a los objetivos de mejorar las condiciones de vida urbana, contribuir a la producción de ciudadanía,
-                    la erradicación del clientelismo,  la transparencia de la gestión pública y a la distribución más justa de las
-                    inversiones y los recursos públicos. La noción de “gobernabilidad participativa” cobra cuerpo y contenidos reales
-                    con estas referencias. La forma de estado democrático con base exclusiva en la democracia representativa se
-                    agotó por su creciente distanciamiento de la gente.  Democracia delegativa, y ciudadanía de baja intensidad donde el único
-                    capital político es el sufragio, son dos caras del fracaso actual. La democracia moderna se amplió por abajo con
-                    la ampliación del sufragio universal, y se estrechó por arriba, dejando en pocas manos la toma de decisiones.
-                </div>
-                <div className={style.text}>
-                    Nadie se realiza en una comunidad que no se realiza, decía el General Perón y agregaba: <strong>
-                        ¨El problema del pensamiento
-                        democrático futuro está en resolvernos  a dar cabida en su paisaje a la comunidad…¨</strong>
-                </div>
-                <div className={style.text}>
-                    No hay justicia social y libertad sin protagonismo popular ni viceversa. Apuntar al bien común es y debe ser el objetivo compartido.
-                </div>
-                <div className={style.text}>
-                    La desprivatización del Estado exige incrementar el control que la sociedad ejerce sobre sus instituciones y recursos.
-                </div>
-                <div className={style.text}>
-                    “Ni la justicia social ni la libertad, motores de nuestro tiempo, son comprensibles en una comunidad montada sobre seres insectificados.
-                    Nuestra comunidad, a la que debemos aspirar, es aquella donde la libertad y la responsabilidad son causa y efecto,
-                    en que exista una alegría de ser, fundada en la persuasión de la dignidad propia. Una comunidad donde el individuo tenga realmente
-                    algo que ofrecer al bien general, algo que integrar y no solo su presencia muda y temerosa.”
-                </div>
             </div>
         </div>
     )

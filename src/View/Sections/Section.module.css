@@ -113,3 +113,12 @@
         opacity: 100%;
     }
 }
+
+/*QUERIES*/
+
+@media (width<=768px) {
+    .articleContainer {
+        width: 85%;
+        animation: appear 1s ease-in-out 0s 1 forwards;
+    }
+}

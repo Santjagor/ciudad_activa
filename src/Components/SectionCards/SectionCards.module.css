@@ -54,3 +54,14 @@
     transition: 0.2s ease-in-out;
     scale: 1.01;
 }
+
+/*QUERIES*/
+
+@media (width<=768px) {
+    .sections {
+        flex-direction: column;
+    }
+    .sectionContainer{
+        margin: 0px;
+    }
+}

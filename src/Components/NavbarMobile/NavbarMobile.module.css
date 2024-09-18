@@ -4,8 +4,7 @@
     align-items: center;
     justify-content: space-between;
     height: 60px;
-    animation: appear 1s;
-    padding: 0 60px 0 60px;
+    padding: 0 20px 0 20px;
     position: sticky;
     top: 0px;
     z-index: 100;
@@ -53,19 +52,14 @@
     padding-bottom: 1px;
 }
 
-@keyframes appear {
-    0% {
-        transform: translate(0%, -100%);
-    }
-
-    100% {
-        transform: translate(0%, 0%);
-    }
+.menuIcon{
+    color: white;
+    font-size: 2rem;
 }
 
 /*QUERIES*/
 
-@media (width<=768px) {
+@media (width>768px) {
     .container {
         display: none;
     }

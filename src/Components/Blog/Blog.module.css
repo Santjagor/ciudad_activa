@@ -85,3 +85,10 @@
 .morePosts:hover {
     letter-spacing: 2px;
 }
+
+@media (width<=1170px) {
+    .post {
+        min-width: 350px;
+        height: 600px;
+    }
+}

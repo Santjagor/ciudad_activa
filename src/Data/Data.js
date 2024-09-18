@@ -14,16 +14,6 @@ export const sections = [
         name: "Fondo Urbano",
         image: "Section3.png",
     },
-    {
-        id: "produccion",
-        name: "Producción",
-        image: "Section3.png",
-    },
-    {
-        id: "consumo-problematico",
-        name: "Consumo Problemático",
-        image: "Section3.png",
-    },
 ]
 
 export const blog = [

@@ -13,8 +13,8 @@ export default function Home({ handleSections }) {
         <div>
             <div className={styles.mainImageContainer}>
                 <img className={styles.mainImage} src="imagen-principal.jpg" alt="" loading='lazy' />
-                <img onClick={() => { navigate('/main-article') }} className={styles.logo} src="Logo.png" alt="" loading='lazy' />
-                <div onClick={() => { navigate('/main-article') }} className={styles.text_logo}>Gobierno Abierto - Participación Ciudadana</div>
+                <img onClick={() => { navigate('/main-article') }} className={styles.logo} src="Logo4.png" alt="" loading='lazy' />
+                {/* <div onClick={() => { navigate('/main-article') }} className={styles.text_logo}>Gobierno Abierto - Participación Ciudadana</div> */}
             </div>
             <SectionCards handleSections={handleSections} />
             <Blog />
