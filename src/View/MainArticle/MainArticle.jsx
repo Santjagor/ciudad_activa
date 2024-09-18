@@ -59,7 +59,7 @@ export default function MainArticle() {
                             Vamos por una ciudad que resuelva los problemas presentes, convocando a la universidad, trabajadores, empresas, cultura y jóvenes. Una ciudad que convoque  a productores y consumidores, para que comprar alimentos sanos y bienes de calidad no sea un privilegio inaccesible. Una ciudad que planifique una movilidad urbana virtuosa entre las 4 avenidas, los barrios y la periferia urbano rural.
                         </div>
                     </div>
-                    <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
+                    <img className={style.image} src="00.png" alt="" loading='lazy' />
                 </div>
                 <hr />
                 <div className={style.text_strong}>
