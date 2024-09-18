@@ -2,7 +2,7 @@ export const sections = [
     {
         id: "ciudad-que-late",
         name: "Ciudad Que Late",
-        image: "Logo4.png",
+        image: "Tandil.png",
     },
     {
         id: "transporte-publico",

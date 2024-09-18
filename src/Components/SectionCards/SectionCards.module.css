@@ -4,6 +4,60 @@
     overflow: hidden;
 }
 
+/**************************************************************/
+.mainSectionContainer {
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+    position: relative;
+    margin: 4px;
+}
+
+.mainSection {
+    height: 375px;
+    width: 100%;
+    object-fit: cover;
+    transition: 0.2s ease-in-out;
+    scale: 1.01;
+}
+
+.mainSectionTitle {
+    letter-spacing: 1px;
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    z-index: 1;
+    color: white;
+    font-weight: bold;
+    font-size: 3rem;
+    font-family: title;
+    transform: translate(-50%, 150%);
+    cursor: pointer;
+    pointer-events: none;
+    transition: 0.2s ease-in-out;
+    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+}
+
+.mainSectionContainer:hover {
+    .mainSection {
+        cursor: pointer;
+        scale: 1.21;
+        filter: blur(4px);
+    }
+
+    .mainSectionTitle {
+        font-size: 4rem;
+        transform: translate(-50%, -50%);
+    }
+}
+
+.mainSctionContainer img {
+    object-position: 60%;
+}
+
+/**************************************************************/
+
 .sectionContainer {
     overflow: hidden;
     width: 100%;
@@ -12,7 +66,7 @@
     margin: 4px;
 }
 
-.sectionContainer img{
+.sectionContainer img {
     object-position: 60%;
 }
 
@@ -61,7 +115,21 @@
     .sections {
         flex-direction: column;
     }
-    .sectionContainer{
+
+    .sectionContainer {
         margin: 0px;
+    }
+    .mainSectionContainer {
+        margin: 0px;
+    }
+    .mainSectionTitle {
+        font-size: 30px;
+        transform: translate(-50%, 300%);
+    }
+    .mainSectionContainer:hover {
+        .mainSectionTitle {
+            font-size: 40px;
+            transform: translate(-50%, -50%);
+        }
     }
 }
