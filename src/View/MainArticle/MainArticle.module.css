@@ -54,6 +54,7 @@
     font-family: text;
     text-align: left;
     font-size: var(--primary-text-size);
+    padding: 0;
 }
 
 .list li{
@@ -92,7 +93,7 @@
 }
 
 .logo{
-    width: 100%;
+    width: 80%;
 }
 
 @keyframes appear {

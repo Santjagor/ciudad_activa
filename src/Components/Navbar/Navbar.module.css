@@ -9,6 +9,7 @@
     position: sticky;
     top: 0px;
     z-index: 100;
+    border-bottom: 1px white solid;
 }
 
 .ncContainer {
@@ -32,7 +33,7 @@
 .button {
     color: white;
     font-family: text;
-    font-size: .8rem;
+    font-size: .7rem;
     opacity: 80%;
     letter-spacing: .13rem;
     cursor: pointer;
@@ -46,7 +47,7 @@
 .button_active {
     color: white;
     font-family: text;
-    font-size: .80rem;
+    font-size: .7rem;
     opacity: 80%;
     letter-spacing: .13rem;
     cursor: pointer;
