@@ -5,9 +5,11 @@
 .title {
     font-weight: bold;
     font-size: var(--primary-title-size);
+    letter-spacing: 2px;
     margin: 0px 0px 20px 0px;
-    color: var(--primary-color);
+    color: white;
     font-family: title;
+    background-color: var(--primary-color);
 }
 
 .postContainer {

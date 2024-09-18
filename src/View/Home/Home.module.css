@@ -21,26 +21,6 @@
     width: 43vw;
 }
 
-/* .text_logo {
-    background-color: white;
-    color: rgb(31, 31, 31);
-    font-family: text;
-    font-weight: bold;
-    font-size: var(--secondary-text-size);
-    width: 35vw;
-    height: 2rem;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, 20%);
-    filter: drop-shadow(4px 4px 3px rgb(0, 0, 0));
-    z-index: 99;
-    animation: slideRight 1.5s ease-in-out;
-    animation-delay: .5s;
-    cursor: pointer;
-    transition: all .2s ease-in-out;
-} */
-
 .mainImage {
     width: 100%;
     object-fit: cover;
@@ -48,6 +28,11 @@
     animation-duration: 25s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+}
+
+.frase{
+    opacity: 75%;
+    width: 60%;
 }
 
 @keyframes breathe {
