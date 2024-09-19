@@ -1,7 +1,7 @@
 export const sections = [
     {
-        id: "ciudad-que-late",
-        name: "Ciudad Que Late",
+        id: "gobierno-abierto",
+        name: "Gobierno Abierto",
         image: "Tandil.png",
     },
     {

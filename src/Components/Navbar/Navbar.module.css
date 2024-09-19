@@ -67,6 +67,16 @@
 
 /*QUERIES*/
 
+@media (width<=1170px) {
+    .button {
+        font-size: .6rem;
+    }
+
+    .button_active {
+        font-size: .6rem;
+    }
+}
+
 @media (width<=768px) {
     .container {
         display: none;

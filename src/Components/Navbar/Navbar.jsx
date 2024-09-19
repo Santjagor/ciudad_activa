@@ -10,6 +10,7 @@ export default function Navbar({ handleBlog, handleSections, navigate }) {
                 <img onClick={() => { navigate('/') }} className={styles.logo} src="Logo4Nav.png" alt="logo" loading='lazy' />
             </div>
             <div className={styles.buttonContainer}>
+                <div id='ciudad-que-late' onClick={handleSections} className={location.pathname === `/ciudad-que-late` ? styles.button_active : styles.button}>Ciudad que late</div>
                 {sections.map(section => {
                     return (
                         <div
