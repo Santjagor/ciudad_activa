@@ -2,22 +2,22 @@ export const sections = [
     {
         id: "gobierno-abierto",
         name: "Gobierno Abierto",
-        image: "Tandil.png",
+        image: "Tandil.webp",
     },
     {
         id: "transporte-publico",
         name: "Transporte Público",
-        image: "Section1.png",
+        image: "Section1.webp",
     },
     {
         id: "foros-de-seguridad",
         name: "Foros de Seguridad",
-        image: "Section2.png",
+        image: "Section2.webp",
     },
     {
         id: "fondo-urbano",
         name: "Fondo Urbano",
-        image: "Section3.png",
+        image: "Section3.webp",
     },
 ]
 

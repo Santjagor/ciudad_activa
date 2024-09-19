@@ -12,7 +12,7 @@ export default function Home({ handleSections }) {
     return (
         <div>
             <div className={styles.mainImageContainer}>
-                <img className={styles.mainImage} src="imagen-principal.jpg" alt="" loading='lazy' />
+                <img className={styles.mainImage} src="imagen-principal.webp" alt="" loading='lazy' />
                 <img onClick={() => { navigate('/ciudad-que-late') }} className={styles.logo} src="Logo4.png" alt="" loading='lazy' />
             </div>
             <SectionCards handleSections={handleSections} />

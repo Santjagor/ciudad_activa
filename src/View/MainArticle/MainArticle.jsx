@@ -4,7 +4,7 @@ export default function MainArticle() {
     return (
         <div className={style.container}>
             <div className={style.topImageContainer}>
-                <img className={style.topImage} src="/banner-1.jpg" alt="banner" loading='lazy' />
+                <img className={style.topImage} src="/banner-cql.webp" alt="banner" loading='lazy' />
             </div>
             <div className={style.articleContainer}>
                 <img src="Logo4.png" alt="logo" className={style.logo} />
@@ -18,7 +18,7 @@ export default function MainArticle() {
                     La política se construye desde una cultura antagónica, que empuja sus contradicciones y revoluciona, para evolucionar hacia la mejor forma de sociedad real, ya no líquida, ya no atravesada por la antipatía individual y narcisista.
                 </div>
                 <div className={style.box}>
-                    <img className={style.image} src="imagen-principal.jpg" alt="" loading='lazy' />
+                    <img className={style.image} src="imagen-principal.webp" alt="" loading='lazy' />
                     <div>
                         <div className={style.text}>
                             La ciudad aletargada, que crece y muestra su estirpe de pura sangre, no deja de abrir heridas, sin cerrar las antiguas, sin evitar las que vendrán. Es momento de salir del sueño y asistir al valor del compromiso colectivo que active los sentidos y despierte un ciclo que abrace a las grandes y verdaderas mayorías.
@@ -59,7 +59,7 @@ export default function MainArticle() {
                             Vamos por una ciudad que resuelva los problemas presentes, convocando a la universidad, trabajadores, empresas, cultura y jóvenes. Una ciudad que convoque  a productores y consumidores, para que comprar alimentos sanos y bienes de calidad no sea un privilegio inaccesible. Una ciudad que planifique una movilidad urbana virtuosa entre las 4 avenidas, los barrios y la periferia urbano rural.
                         </div>
                     </div>
-                    <img className={style.image} src="00.png" alt="" loading='lazy' />
+                    <img className={style.image} src="00.webp" alt="" loading='lazy' />
                 </div>
                 <hr />
                 <div className={style.text_strong}>

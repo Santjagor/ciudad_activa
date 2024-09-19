@@ -11,7 +11,7 @@ export default function Section() {
         <div>
             <div className={style.container}>
                 <div className={style.topImageContainer}>
-                    <img src="banner-1.jpg" alt="" className={style.topImage} />
+                    <img src="banner-1.webp" alt="" className={style.topImage} />
                 </div>
 
                 <div id='Inicio' className={style.title}>Gobierno abierto</div>
@@ -26,7 +26,7 @@ export default function Section() {
                 </ul>
                 <div className={style.articleContainer}>
                     <div className={style.text}><strong>En un tiempo presente signado por diagnósticos críticos, sin esperanza ni aparente respuesta a los problemas cotidianos que atraviesa nuestra sociedad, es tiempo de potenciar la inteligencia colectiva, para abordar la complejidad de la democracia inmersa en una crisis, no solo global, sino estructural; donde sus cimientos han sido erosionados en los últimos veinte años, por una triada apocalíptica: crisis política, crisis económica, crisis social.</strong></div>
-                    <img src="Tandil-banner.png" alt="tandil-banner" className={style.image} />
+                    <img src="Tandil-banner.webp" alt="tandil-banner" className={style.image} />
                     <div className={style.text}>Los ámbitos donde esta potencialidad, la de anteponer lo colectivo por sobre lo individual, se puede desarrollar y manifestar firmemente, no se encuentran solo en lo Nacional – a partir, sobre todo, de la emergencia de la LLA – sino que existen distintos territorios donde esta disputa se hace necesaria. Lo local es el ámbito privilegiado para construir este tipo de experiencias. La desprivatización del Estado exige incrementar el control que la sociedad ejerce sobre sus instituciones y recursos.</div>
                     <div className={style.text}>Frente a la opacidad, el secretismo, el lenguaje críptico y las negociaciones bajo la mesa, proponemos la transparencia, la comunicación permanente, la clarificación de los intereses y actores en cada decisión pública, la conformación de espacios estables de control social con un mínimo nivel de especialización y conocimiento.</div>
                     <div className={style.text}><strong>El gobierno Radical de Miguel Lunghi</strong> pone en evidencia su carácter de gobierno cada vez mas  cerrado.  Todas las decisiones se toman a espaldas a la sociedad, que no participa ni de la formulación ni del control de las políticas públicas.  Además, el desgaste  de 20 años de gestión está acompañado de pérdida de políticas estratégicas, falta de cuadros para la gestión y reina la improvisación.</div>
