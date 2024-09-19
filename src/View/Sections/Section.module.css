@@ -84,6 +84,7 @@
     font-family: text;
     font-weight: bolder;
     font-size: var(--secondary-text-size);
+    font-style: italic;
     color: var(--primary-color);
     text-align: center;
     margin: 1.8rem 0 1.8rem 0;
