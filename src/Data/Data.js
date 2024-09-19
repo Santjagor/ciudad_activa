@@ -40,5 +40,4 @@ export const blog = [
         image: 'https://www.lavozdetandil.com.ar/contenido/noticias/original/2024/03/07/1709817488.webp',
         url: 'https://www.lavozdetandil.com.ar/nota-el-concejal-nicolas-carrillo-presento-cuatro-proyectos-para-el-transporte-publico-117028',
     },
-    
 ]
