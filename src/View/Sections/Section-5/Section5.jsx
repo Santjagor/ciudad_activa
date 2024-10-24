@@ -14,12 +14,12 @@ export default function Section() {
             <div className={style.container}>
                 <div id='Inicio' className={style.title}>Dialogos para activar</div>
                 <div className={style.articleContainer}>
+                    <hr />
+                    <div id={points[0]}></div>
+                    <br />
+                    <br />
+                    <br />
                     <div className={style.subtitle_2}>Documento 1</div>
-                    <img src="dpa1.jpg" alt="dpa1" className={style.image} />
-                    <div id='Documento 1'></div>
-                    <br />
-                    <br />
-                    <br />
                     <div className={style.text}><strong>Presentación</strong></div>
                     <div className={style.text}>
                         En el marco del primer encuentro, a modo de ensayo, de los miembros de la mesa
@@ -29,6 +29,9 @@ export default function Section() {
                         Penitenciaria de Barker, en torno a los principales temas y ejes de debate por estos
                         tiempos, entre los que se encuentra la inseguridad, el avance del hambre, el desempleo y
                         la mirada de la clase media frente al actual escenario Nacional.</div>
+                    <br />
+                    <img src="dpa1.jpg" alt="dpa1" className={style.image} />
+                    <br />
                     <br />
                     <div className={style.text}><strong>En Contexto</strong></div>
                     <div className={style.text}>
@@ -182,19 +185,12 @@ export default function Section() {
                     <br />
                     <br />
                     <br />
-
-
-
-
-
-
-
+                    <hr />
+                    <div id={points[1]}></div>
+                    <br />
+                    <br />
+                    <br />
                     <div className={style.subtitle_2}>Documento 2</div>
-                    <img src="dpa2.webp" alt="dpa2" className={style.image} />
-                    <div id='Documento 2'></div>
-                    <br />
-                    <br />
-                    <br />
                     <div className={style.text}><strong>Presentación</strong></div>
                     <div className={style.text}>
                         En el marco del primer encuentro, a modo de ensayo, de los miembros de la mesa
@@ -205,6 +201,9 @@ export default function Section() {
                         tiempos, entre los que se encuentra la inseguridad, el avance del hambre, el desempleo y
                         la mirada de la clase media frente al actual escenario Nacional.
                     </div>
+                    <img src="dpa2.webp" alt="dpa2" className={style.image} />
+                    <br />
+                    <br />
                     <div className={style.text}><strong>En contexto</strong></div>
                     <div className={style.text}>
                         Como se viene dando en la mayoría de los espacios de debate, que giran en torno
@@ -361,19 +360,12 @@ export default function Section() {
                     <br />
                     <br />
                     <br />
-
-
-
-
-
-
-
+                    <hr />
+                    <div id={points[2]}></div>
+                    <br />
+                    <br />
+                    <br />
                     <div className={style.subtitle_2}>Documento 3</div>
-                    <img src="dpa3.jpg" alt="dpa3" className={style.image} />
-                    <div id='Documento 3'></div>
-                    <br />
-                    <br />
-                    <br />
                     <div className={style.text}><strong>Presentación</strong></div>
                     <div className={style.text}>
                         El marco de lo que hemos dado en llamar conversatorios de Centinela Sur,
@@ -389,6 +381,9 @@ export default function Section() {
                         presente político de la ciudad y el futuro; los temas que importan y preocupan al
                         tandilense y la mirada estratificada de una ciudad de la envergadura de Tandil.
                     </div>
+                    <img src="dpa3.jpg" alt="dpa3" className={style.image} />
+                    <br />
+                    <br />
                     <div className={style.text}><strong>En contexto</strong></div>
                     <div className={style.text}>
                         Las recientes medidas del gobierno nacional se han comportado de una manera
@@ -519,7 +514,7 @@ export default function Section() {
                             resultados obtenidos hasta ahora.</li>
                     </ul>
                     <div className={style.text_strong}>“Juntarse es un comienzo. Seguir juntos es un progreso. Trabajar juntos es un éxito”</div>
-                    <div className={style.text_strong}>AHenry Ford</div>
+                    <div className={style.text_strong}>Henry Ford</div>
                 </div>
                 <SidePanel points={points} />
             </div>
