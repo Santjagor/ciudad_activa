@@ -19,6 +19,11 @@ export const sections = [
         name: "Fondo Urbano",
         image: "Section3.webp",
     },
+    {
+        id: "dialogos-para-activar",
+        name: "Dialogos para activar",
+        image: "Section3.webp",
+    },
 ]
 
 export const blog = [
