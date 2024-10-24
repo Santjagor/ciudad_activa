@@ -22,7 +22,7 @@ export const sections = [
     {
         id: "dialogos-para-activar",
         name: "Dialogos para activar",
-        image: "Section3.webp",
+        image: "banner-dpa.png",
     },
 ]
 
