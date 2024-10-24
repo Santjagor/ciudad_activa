@@ -33,7 +33,7 @@
 .button {
     color: white;
     font-family: text;
-    font-size: .7rem;
+    font-size: .58rem;
     opacity: 80%;
     letter-spacing: .13rem;
     cursor: pointer;
@@ -69,11 +69,11 @@
 
 @media (width<=1170px) {
     .button {
-        font-size: .6rem;
+        font-size: .5rem;
     }
 
     .button_active {
-        font-size: .6rem;
+        font-size: .5rem;
     }
 }
 
