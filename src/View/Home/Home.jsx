@@ -8,9 +8,9 @@ import SeparationBar from '../../Components/SeparationBar/SeparationBar'
 
 export default function Home({ handleSections }) {
     const navigate = useNavigate()
-    // useEffect(() => {
-    //     window.scrollTo({ top: 0, behavior: 'smooth' });
-    // }, [])
+    useEffect(() => {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    }, [])
     return (
         <div>
             <div className={styles.mainImageContainer}>
