@@ -64,9 +64,11 @@
     font-size: 2.7rem;
     transition: .3s ease-in-out;
     font-weight: bold;
+    font-family: title;
+    letter-spacing: 2px;
     color: white;
     text-transform: uppercase;
-    text-shadow: 2px 2px 5px rgb(0, 0, 0);
+    text-shadow: 4px 4px 5px rgb(0, 0, 0);
     pointer-events: none;
     position: absolute;
     top: 50%;
@@ -125,10 +127,30 @@
         width: 100%;
         height: 100%;
     }
+    .dpaTitle {
+        font-size: 2.3rem;
+    }
+    .dpaContainer:hover {
+        .dpaTitle{
+            font-size: 2.5rem;
+        }
+    }
 }
 
 @media (width<=768px) {
     .logo {
         width: 80vw;
+    }
+    .dpaTitle {
+        font-size: 2rem;
+    }
+    .dpaImage{
+        height: 150px;
+        width: 960px;
+    }
+    .dpaContainer:hover {
+        .dpaTitle{
+            font-size: 2.3rem;
+        }
     }
 }
