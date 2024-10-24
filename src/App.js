@@ -13,6 +13,7 @@ import Section1 from './View/Sections/Section-1/Section1'
 import Section2 from './View/Sections/Section-2/Section2'
 import Section3 from './View/Sections/Section-3/Section3'
 import Section4 from './View/Sections/Section-4/Section4'
+import Section5 from './View/Sections/Section-5/Section5'
 import SideMenu from './Components/SideMenu/SideMenu';
 //Sections//
 
@@ -68,6 +69,7 @@ function App() {
         <Route path='/foros-de-seguridad' element={<Section2 />} />
         <Route path='/fondo-urbano' element={<Section3 />} />
         <Route path='/gobierno-abierto' element={<Section4 />} />
+        <Route path='/dialogos-para-activar' element={<Section5 />} />
         <Route path='/ciudad-que-late' element={<MainArticle />} />
       </Routes>
       <Footer />
