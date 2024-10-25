@@ -481,7 +481,7 @@ export default function Section() {
                         una mirada acertada de la actualidad – y sus demandas – que ordene, conduzca y proyecte
                         sobre la base de (re) valorizar la política, como un instrumento de percepción positiva
                         dentro del pueblo. Lo contrario de esto, ha sido abrir la puerta a la emergencia del
-                        <strong>outsiders</strong>.
+                        <strong> outsiders</strong>.
                     </div>
                     <div className={style.text}><strong>Pensar para desarrollar</strong></div>
                     <div className={style.text}>
