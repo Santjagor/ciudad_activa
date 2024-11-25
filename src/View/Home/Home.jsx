@@ -3,13 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import SectionCards from '../../Components/SectionCards/SectionCards'
 import Blog from '../../Components/Blog/Blog'
-import { sections } from '../../Data/Data'
+import { sections, dpa } from '../../Data/Data'
 import SeparationBar from '../../Components/SeparationBar/SeparationBar'
 
 export default function Home({ handleSections }) {
     const navigate = useNavigate()
     useEffect(() => {
-        window.scrollTo({ top: 0, behavior: 'smooth' });
+        // window.scrollTo({ top: 0, behavior: 'smooth' });
     }, [])
     return (
         <div>
@@ -20,12 +20,26 @@ export default function Home({ handleSections }) {
 
             <SectionCards handleSections={handleSections} />
 
-            <SeparationBar />
-            <div id={sections[4].id} onClick={handleSections} className={styles.dpaContainer}>
-                <img src={sections[4].image} alt="dpa" className={styles.dpaImage} />
-                <div className={styles.dpaTitle}>Dialogos para activar</div>
+            {/* <SeparationBar /> */}
+            <br /><br /><br />
+            <div className={styles.dpaContainer}>
+                <img className={styles.dpaImage} src="banner-dpa.png" alt="" />
+                <div className={styles.dpaTitle}>DIALOGOS PARA ACTIVAR</div>
+                <div className={styles.dpaButtonContainer}>
+                    {dpa.map(d => {
+                        return (
+                            <div
+                                id={d.url}
+                                className={styles.dpaButton}
+                                onClick={handleSections}>
+                                {d.title}
+                            </div>
+                        )
+                    })}
+                </div>
             </div>
-            <SeparationBar />
+            <br /><br /><br />
+            {/* <SeparationBar /> */}
 
             <Blog />
         </div>

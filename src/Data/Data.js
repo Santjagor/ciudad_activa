@@ -20,9 +20,32 @@ export const sections = [
         image: "Section3.webp",
     },
     {
-        id: "dialogos-para-activar",
+        id: "dialogos-para-activar-1",
         name: "Dialogos para activar",
         image: "banner-dpa.png",
+    },
+]
+
+export const dpa = [
+    {
+        id: 1,
+        title: "Documento 1",
+        url: "dialogos-para-activar-1",
+    },
+    {
+        id: 2,
+        title: "Documento 2",
+        url: "dialogos-para-activar-2",
+    },
+    {
+        id: 3,
+        title: "Documento 3",
+        url: "dialogos-para-activar-3",
+    },
+    {
+        id: 4,
+        title: "Documento 4",
+        url: "dialogos-para-activar-4",
     },
 ]
 

@@ -1,0 +1,36 @@
+.container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+    margin-top: 3rem;
+}
+
+.buttonActive {
+    background-color: var(--primary-color);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: text;
+    letter-spacing: .15rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.buttonActive:hover {
+    scale: 1.05;
+}
+
+.buttonInactive {
+    background-color: var(--primary-text-color);
+    color: white;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-family: text;
+    letter-spacing: .15rem;
+    padding: 1rem;
+    border-radius: 10px;
+}

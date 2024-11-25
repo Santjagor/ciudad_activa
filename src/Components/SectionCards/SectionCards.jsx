@@ -16,7 +16,7 @@ export default function SectionCards({ handleSections }) {
             </div>
             <div className={styles.sections}>
                 {sections.map(sec => {
-                    if (sec.id !== 'gobierno-abierto' && sec.id !== 'dialogos-para-activar') {
+                    if (sec.id !== 'gobierno-abierto' && sec.id !== 'dialogos-para-activar-1') {
                         return (
                             <div key={sec.id} className={styles.sectionContainer}>
                                 <img src={sec.image}

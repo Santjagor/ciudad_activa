@@ -14,6 +14,10 @@ import Section2 from './View/Sections/Section-2/Section2'
 import Section3 from './View/Sections/Section-3/Section3'
 import Section4 from './View/Sections/Section-4/Section4'
 import Section5 from './View/Sections/Section-5/Section5'
+import Dpa_1 from './View/Sections/dpa/Dpa_1'
+import Dpa_2 from './View/Sections/dpa/Dpa_2'
+import Dpa_3 from './View/Sections/dpa/Dpa_3'
+import Dpa_4 from './View/Sections/dpa/Dpa_4'
 import SideMenu from './Components/SideMenu/SideMenu';
 //Sections//
 
@@ -70,6 +74,12 @@ function App() {
         <Route path='/fondo-urbano' element={<Section3 />} />
         <Route path='/gobierno-abierto' element={<Section4 />} />
         <Route path='/dialogos-para-activar' element={<Section5 />} />
+
+        <Route path='/dialogos-para-activar-1' element={<Dpa_1 handleSections={handleSections} />} />
+        <Route path='/dialogos-para-activar-2' element={<Dpa_2 handleSections={handleSections} />} />
+        <Route path='/dialogos-para-activar-3' element={<Dpa_3 handleSections={handleSections} />} />
+        <Route path='/dialogos-para-activar-4' element={<Dpa_4 handleSections={handleSections} />} />
+
         <Route path='/ciudad-que-late' element={<MainArticle />} />
       </Routes>
       <Footer />

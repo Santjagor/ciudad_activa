@@ -35,45 +35,51 @@
     width: 60%;
 }
 
-.dpaContainer {
-    margin-top: 3rem;
-    margin-bottom: 3rem;
-    height: fit-content;
-    width: 100%;
-    position: relative;
-    overflow: hidden;
-    cursor: pointer;
+.dpaTitle {
+    color: var(--primary-color);
+    font-family: title;
+    font-size: 3rem;
+    margin-bottom: 2rem;
+    filter: drop-shadow(white 0px 0px 5px);
 }
 
-.dpaContainer:hover {
-    .dpaTitle{
-        font-size: 3rem;
-    }
-    .dpaImage{
-        scale: 1.1;
-    }
+.dpaContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
 }
 
 .dpaImage {
-    pointer-events: none;
+    position: absolute;
     width: 100%;
-    transition: 1s ease-in-out;
+    z-index: -1;
 }
 
-.dpaTitle {
-    font-size: 2.7rem;
-    transition: .3s ease-in-out;
-    font-weight: bold;
-    font-family: title;
-    letter-spacing: 2px;
+.dpaButtonContainer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: .5rem;
+    width: 100%;
+}
+
+.dpaButton {
+    background-color: var(--primary-color);
     color: white;
     text-transform: uppercase;
-    text-shadow: 4px 4px 5px rgb(0, 0, 0);
-    pointer-events: none;
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+    font-weight: bold;
+    font-family: text;
+    letter-spacing: .15rem;
+    padding: 1rem;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: all .2s ease-in-out;
+}
+
+.dpaButton:hover {
+    scale: 1.05;
 }
 
 @keyframes breathe {
@@ -127,30 +133,10 @@
         width: 100%;
         height: 100%;
     }
-    .dpaTitle {
-        font-size: 2.3rem;
-    }
-    .dpaContainer:hover {
-        .dpaTitle{
-            font-size: 2.5rem;
-        }
-    }
 }
 
 @media (width<=768px) {
     .logo {
         width: 80vw;
-    }
-    .dpaTitle {
-        font-size: 2rem;
-    }
-    .dpaImage{
-        height: 150px;
-        width: 960px;
-    }
-    .dpaContainer:hover {
-        .dpaTitle{
-            font-size: 2.3rem;
-        }
     }
 }
