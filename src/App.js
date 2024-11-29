@@ -18,6 +18,8 @@ import Dpa_1 from './View/Sections/dpa/Dpa_1'
 import Dpa_2 from './View/Sections/dpa/Dpa_2'
 import Dpa_3 from './View/Sections/dpa/Dpa_3'
 import Dpa_4 from './View/Sections/dpa/Dpa_4'
+import Nmplm_1 from './View/Sections/nmplm/Nmplm_1'
+import Nmplm_2 from './View/Sections/nmplm/Nmplm_2'
 import SideMenu from './Components/SideMenu/SideMenu';
 //Sections//
 
@@ -79,6 +81,9 @@ function App() {
         <Route path='/dialogos-para-activar-2' element={<Dpa_2 handleSections={handleSections} />} />
         <Route path='/dialogos-para-activar-3' element={<Dpa_3 handleSections={handleSections} />} />
         <Route path='/dialogos-para-activar-4' element={<Dpa_4 handleSections={handleSections} />} />
+
+        <Route path='/nuevas-melodias-para-la-militancia-1' element={<Nmplm_1 handleSections={handleSections} />} />
+        <Route path='/nuevas-melodias-para-la-militancia-2' element={<Nmplm_2 handleSections={handleSections} />} />
 
         <Route path='/ciudad-que-late' element={<MainArticle />} />
       </Routes>

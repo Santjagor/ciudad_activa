@@ -29,23 +29,36 @@ export const sections = [
 export const dpa = [
     {
         id: 1,
-        title: "Documento 1",
+        title: "Diálogo con la iglesia",
         url: "dialogos-para-activar-1",
     },
     {
         id: 2,
-        title: "Documento 2",
+        title: "Diálogo con el empresariado",
         url: "dialogos-para-activar-2",
     },
     {
         id: 3,
-        title: "Documento 3",
+        title: "Diálogo con los periodistas",
         url: "dialogos-para-activar-3",
     },
     {
         id: 4,
-        title: "Documento 4",
+        title: "Diálogo por la vivienda",
         url: "dialogos-para-activar-4",
+    },
+]
+
+export const nmplm = [
+    {
+        id: 1,
+        title: "Melodías",
+        url: "nuevas-melodias-para-la-militancia-1",
+    },
+    {
+        id: 2,
+        title: "Melodías",
+        url: "nuevas-melodias-para-la-militancia-2",
     },
 ]
 

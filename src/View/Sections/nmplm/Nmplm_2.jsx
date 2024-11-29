@@ -1,11 +1,11 @@
 import style from '../Section.module.css'
-import DpaBanner from '../../../Components/DpaBanner/DpaBanner'
+import NmplmBanner from '../../../Components/NmplmBanner/NmplmBanner'
 
 export default function Section({ handleSections }) {
     return (
         <div>
             <div className={style.container}>
-                <DpaBanner handleSections={handleSections} />
+                <NmplmBanner handleSections={handleSections} />
                 <div id='Inicio' className={style.title}>Dialogos para activar</div>
                 <div className={style.articleContainer}>
                     <hr />
@@ -15,14 +15,13 @@ export default function Section({ handleSections }) {
                     <div className={style.subtitle_2}>Documento 2</div>
                     <div className={style.text}><strong>Presentación</strong></div>
                     <div className={style.text}>
-                        En el marco de encuentros conversatorios, con diferentes actores de la comunidad
-                        local, buscando siempre la pluralidad de voces y la diversidad de miradas de nuestra
-                        realidad, los miembros de la mesa política de la usina de pensamiento, Centinela Sur (en
-                        adelante CS), dialogamos en esta ocasión con un referente comercial, de la zona céntrica
-                        de la ciudad, dedicado a la comercialización de materiales eléctricos. Nuestro invitado,
-                        además, tiene una asidua participación en el plano institucional local, habiendo sido
-                        miembro del directorio de la Usina Municipal de Tandil, así como de la Cámara
-                        Empresaria de Tandil, entre otras instituciones.
+                        En el marco del primer encuentro, a modo de ensayo, de los miembros de la mesa
+                        política de la usina de pensamiento, Centinela Sur (en adelante CS) y de los distintos
+                        actores/referentes del ámbito local, se dio un interesante marco de discusión con el Padre
+                        Andrés Pérez, párroco de Nuestra Señora del Carmen y Capellán en la Unidad
+                        Penitenciaria de Barker, en torno a los principales temas y ejes de debate por estos
+                        tiempos, entre los que se encuentra la inseguridad, el avance del hambre, el desempleo y
+                        la mirada de la clase media frente al actual escenario Nacional.
                     </div>
                     <img src="dpa2.webp" alt="dpa2" className={style.image} />
                     <br />

@@ -3,13 +3,13 @@ import { useNavigate } from 'react-router-dom'
 import { useEffect } from 'react'
 import SectionCards from '../../Components/SectionCards/SectionCards'
 import Blog from '../../Components/Blog/Blog'
-import { sections, dpa } from '../../Data/Data'
-import SeparationBar from '../../Components/SeparationBar/SeparationBar'
+import DpaCards from '../../Components/DpaCards/DpaCards'
+import NmplmCards from '../../Components/NmplmCards/NmplmCards'
 
 export default function Home({ handleSections }) {
     const navigate = useNavigate()
     useEffect(() => {
-        // window.scrollTo({ top: 0, behavior: 'smooth' });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     }, [])
     return (
         <div>
@@ -20,26 +20,13 @@ export default function Home({ handleSections }) {
 
             <SectionCards handleSections={handleSections} />
 
-            {/* <SeparationBar /> */}
             <br /><br /><br />
-            <div className={styles.dpaContainer}>
-                <img className={styles.dpaImage} src="banner-dpa.png" alt="" />
-                <div className={styles.dpaTitle}>DIALOGOS PARA ACTIVAR</div>
-                <div className={styles.dpaButtonContainer}>
-                    {dpa.map(d => {
-                        return (
-                            <div
-                                id={d.url}
-                                className={styles.dpaButton}
-                                onClick={handleSections}>
-                                {d.title}
-                            </div>
-                        )
-                    })}
-                </div>
-            </div>
+            <DpaCards handleSections={handleSections} />
             <br /><br /><br />
-            {/* <SeparationBar /> */}
+
+            <br /><br /><br />
+            <NmplmCards handleSections={handleSections} />
+            <br /><br /><br />
 
             <Blog />
         </div>

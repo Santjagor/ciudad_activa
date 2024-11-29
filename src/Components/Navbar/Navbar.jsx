@@ -4,6 +4,11 @@ import { useLocation } from 'react-router-dom'
 
 export default function Navbar({ handleBlog, handleSections, navigate }) {
     const location = useLocation()
+    function compararSinUltimoCaracter(str1, str2) {
+        const recortado1 = str1.slice(0, -1);
+        const recortado2 = str2.slice(0, -1);
+        return recortado1 === recortado2;
+    }
     return (
         <div className={styles.container}>
             <div className={styles.ncContainer}>
@@ -17,7 +22,7 @@ export default function Navbar({ handleBlog, handleSections, navigate }) {
                             id={section.id}
                             key={section.id}
                             onClick={handleSections}
-                            className={location.pathname === `/${section.id}` ? styles.button_active : styles.button}
+                            className={compararSinUltimoCaracter(`/${section.id}`, location.pathname) ? styles.button_active : styles.button}
                         >
                             {section.name}
                         </div>

@@ -28,58 +28,12 @@
     animation-duration: 25s;
     animation-timing-function: ease-in-out;
     animation-iteration-count: infinite;
+    filter: blur(4px);
 }
 
 .frase {
     opacity: 75%;
     width: 60%;
-}
-
-.dpaTitle {
-    color: var(--primary-color);
-    font-family: title;
-    font-size: 3rem;
-    margin-bottom: 2rem;
-    filter: drop-shadow(white 0px 0px 5px);
-}
-
-.dpaContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: .5rem;
-    width: 100%;
-}
-
-.dpaImage {
-    position: absolute;
-    width: 100%;
-    z-index: -1;
-}
-
-.dpaButtonContainer {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    gap: .5rem;
-    width: 100%;
-}
-
-.dpaButton {
-    background-color: var(--primary-color);
-    color: white;
-    text-transform: uppercase;
-    font-weight: bold;
-    font-family: text;
-    letter-spacing: .15rem;
-    padding: 1rem;
-    cursor: pointer;
-    border-radius: 10px;
-    transition: all .2s ease-in-out;
-}
-
-.dpaButton:hover {
-    scale: 1.05;
 }
 
 @keyframes breathe {
