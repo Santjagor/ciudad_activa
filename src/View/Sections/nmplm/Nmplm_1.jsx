@@ -6,169 +6,144 @@ export default function Section({ handleSections }) {
         <div>
             <div className={style.container}>
                 <NmplmBanner handleSections={handleSections} />
-                <div id='Inicio' className={style.title}>Dialogos para activar</div>
+                <div id='Inicio' className={style.title}>Nuevas Melodías Para La Militancia</div>
                 <div className={style.articleContainer}>
                     <hr />
-                    <br />
-                    <br />
-                    <br />
-                    <div className={style.subtitle_2}>Documento 1</div>
-                    <div className={style.text}><strong>Presentación</strong></div>
-                    <div className={style.text}>
-                        En el marco del primer encuentro, a modo de ensayo, de los miembros de la mesa
-                        política de la usina de pensamiento, Centinela Sur (en adelante CS) y de los distintos
-                        actores/referentes del ámbito local, se dio un interesante marco de discusión con el Padre
-                        Andrés Pérez, párroco de Nuestra Señora del Carmen y Capellán en la Unidad
-                        Penitenciaria de Barker, en torno a los principales temas y ejes de debate por estos
-                        tiempos, entre los que se encuentra la inseguridad, el avance del hambre, el desempleo y
-                        la mirada de la clase media frente al actual escenario Nacional.</div>
+                    <div className={style.text_strong}>"El futuro ya llegó, llegó como vos no lo esperabas, todo un palo, ya lo ves”</div>
+                    <div className={style.text_strong}>Patricio Rey</div>
                     <br />
                     <img src="dpa1.jpg" alt="dpa1" className={style.image} />
+                    <div id='Inicio' className={style.title}>Desvalorización del trabajo, poder cognitivo y endeudamiento en el mundo actual </div>
                     <br />
                     <br />
-                    <div className={style.text}><strong>En Contexto</strong></div>
+                    <div className={style.text}>CARACTERIZACIÓN</div>
+                    <div className={style.text}><strong>DESVALORIZACIÓN DEL TRABAJO</strong></div>
                     <div className={style.text}>
-                        El objetivo de los encuentros programados por la organización, se centra
-                        principalmente en generar un marco de dialogo abierto – no necesariamente agenda de
-                        por medio – con el interlocutor seleccionado para la ocasión; abriendo el debate a
-                        diferentes referentes, a veces, representantes directos de sectores o rubros específicos;
-                        otras veces, se dará en el marco dirigencial – sindical, político, empresarial – siempre con
-                        la dinámica de enriquecer las miradas, de nuestra realidad local, pero también la del
-                        binomio regional-nacional (y, por qué no?, internacional).
+                        Vivimos en un contexto de predominancia de lo inmaterial, esto es, el dominio del alma sin cuerpo de la tecnología, en forma de software. Esto se denomina industria 4.0, que tiene que ver con algo más complejo que introducir internet en un proceso industrial. No se trata solo de robótica, sino de tres tecnologías simultáneas: la difusión de internet en la producción, la aparición de plataformas y el desarrollo de algoritmos. De esta manera se integran objetos con internet (Internet de las cosas), se extraen datos de esa interacción y se automatizan más y más las funciones.
                     </div>
                     <div className={style.text}>
-                        Nuestro enfoque es ambicioso, pero tal como expresa el proverbio chino, <strong>hasta el
-                            viaje más largo, comienza por el primer paso</strong>. Y, en este primer encuentro, nos centramos
-                        en uno de nuestros pilares, fundacionales, que tiene que ver con la participación desde la
-                        perspectiva del pensamiento y las ideas.
+                        La industria 1.0, o primer revolución industrial, surgió en 1784 con la máquina vapor de tela, la 2.0 en 1870 con la primera cinta transportadora eléctrica en los mataderos de Cincinnati, y la 3.0 en 1960 con el controlador lógico modicon en usa (automatización industrial).
                     </div>
                     <div className={style.text}>
-                        Siempre con la mirada puesta en el preocupante contexto nacional que se
-                        desenvuelve con cada vez mayor virulencia, tratamos de enfocar el debate dentro de los
-                        escenarios que se gestan en la ciudad, por caso, y de qué manera los mismos van haciendo
-                        carne dentro de la sociedad local, impacto de por medio.
+                        Las primeras revoluciones industriales, la 1.0 y 2.0, se definen por una fuente de energía: el vapor y la electricidad, aunque la segunda agrega un proceso productivo que es la cadena de montaje, y 3.0, que es la automatización. Un ejemplo de esta última, en 1978 General Motors instaló el primer robot industrial para tareas de soldadura y ensamblaje.
                     </div>
                     <div className={style.text}>
-                        Andrés nos contó acerca de sus temores, en relación a la profunda crisis social en
-                        la que nos vemos inmersos y en cómo la misma, ya está calando hondo dentro de algunos
-                        sectores de la ciudad; más allá de que Tandil pareciera tener sus propios anti cuerpos
-                        frente a cualquier crisis y sus dosis de minimalismo de las mismas, parecen ser infalibles.
-                        Una “foto”, en definitiva, de lo que han sido estos años de gobierno local, que han
-                        trascendido los tiempos, y que han sellado una impronta propia frente al contexto:
-                        <strong> transitar en la ancha avenida del medio, sin mayores intenciones de explicitar acciones
-                            y definiciones de coyuntura.</strong>
+                        De estas 4 etapas capitalistas, la 1.0, se produce por la proletarización de miles de campesinos por privatización de los campos comunes en el siglo 16 y 17, y la apertura del mercado textil de la India y América, fue el paralelo a la Revolución Francesa que ocurrió al mismo tiempo.
                     </div>
                     <div className={style.text}>
-                        Una de las acciones que lleva a cabo la parroquia donde Andrés desempeña su
-                        incansable tarea de estar junto a los que más lo necesitan, es la de acercar alimentos y
-                        otros elementos de primera necesidad a los vecinos. Su sorpresa, según nos confiesa con
-                        dolor, fue la enorme asistencia de tandilenses a uno de estos actos de entrega que hace la
-                        institución, situación que lo llevó a sintetizar de que la crisis no solo se está sintiendo,
-                        sino que se presume mayor a la que vemos – o nos quieren hacer ver – a diario.
+                        La industria 2.0, se detonó por la crisis de 1873, la primera depresión moderna. Muchos países empezaron a pensar cómo proteger sus economías. Esta fue la sociedad industrial que conocemos, con la cuadrícula corporativa de grandes empresas monopólicas, sindicatos y estado de bienestar. La mayoría del mundo se organizó de esa manera, y la otra mitad, el comunismo, se organizó de manera similar, pero sin propiedad individual o propiedad privada.
                     </div>
                     <div className={style.text}>
-                        Este disparador nos llevó a identificar – casi como una constante desde hace veinte
-                        años – las consecuencias del retiro del Estado en materia social; no como una entelequia,
-                        sino como una película que se filma en tiempo real y en nuestro suelo. Clubes de barrios,
-                        instituciones religiosas, organizaciones del tercer sector (por un lado) que ven reducidas
-                        sus capacidades de respuesta frente al avance de la crisis, que cada vez más va formando
-                        parte del paisaje; y, por otro lado, una realidad – porque nadie está en condiciones de
-                        negarla – que se relaciona con una ciudad pujante, que crece, que tiene atributos para
-                        “mostrar” al foráneo y que cuenta – además – con una clase media capaz de resistir
-                        cualquier intento de <strong>conurbanizar</strong> la joya serrana y poner en discusión una agenda de
-                        temas sensibles. Luca diría, “mejor no hablar, de ciertas cosas...”.
+                        Luego, la 3.0 la originan técnicos del periodo anterior, los creadores son exfuncionarios del departamento de guerra durante la Segunda Guerra Mundial de Estados Unidos en la costa oeste. Empiezan con la incorporación tecnológica a la producción y esbozos de emprendedurismo. También se combina con la contracultura joven estadounidense y el repudio a la organización fordista de la vida, influidos por el Mayo Francés. Ya se veía, a partir del año 73, la crisis del petróleo, la inflación, las huelgas y las tomas de fábricas características de esa época. Primero, Reagan y Thatcher aplicaron el modelo neoliberal en el mundo, y después se consolidó con el neoliberalismo progresista de Bill Clinton y Tony Blair.
                     </div>
                     <div className={style.text}>
-                        Este Estado <strong>observador</strong> – contrario al benefactor, referenciando al Estado
-                        keynesiano de pos guerra – no parece ser un actor hay que haya que ir a “tocarle la puerta”,
-                        para una gran mayoría de tandilenses. En concreto, porque fue tema del encuentro, esto
-                        muestra la dificultad para que las problemáticas coyunturales “ganen la calle” en la
-                        ciudad. Recientemente se dio una medida de fuerza del gremio ATE, a partir del cierre
-                        del CDR local, con un nivel de acatamiento no solo invisible, sino resistido, si sirve de
-                        ejemplo claro y concreto.
+                        El punto de partida de este punto de inflexión es el surgimiento de la ideología californiana de la incorporación tecnológica a la producción, la aparición de los garajes emprendedores y las diferentes crisis de la sociedad industrial.
                     </div>
                     <div className={style.text}>
-                        El interrogante, con el que Andrés se sintió familiarizado, corre por estos días – al
-                        menos en el marco de quienes vemos y analizamos esta realidad con preocupación, sin
-                        que quite esperanza – sobre un sendero marcado por la incertidumbre, respecto al
-                        momento donde emergerá por la inercia propia del escenario, el divorcio entre lo
-                        discursivo y lo simbólico, por un lado (la abrumadora ingeniería de la pos verdad), y la
-                        realidad por el otro (la restitución del impuesto a las ganancias, por mencionar un tema
-                        que atraviesa a la tan mencionada clase media).
+                        Posteriormente el capitalismo 4.0 nace luego del derribo de las torres gemelas: Las grandes empresas tecnológicas se incorporan en articulación con el distintos gobiernos para la transformación global en seguridad y vigilancia desde 3 aspectos: internet para controlar a personas y objetos, la plataforma para bajar costos y start up (empresas tecnológicas) para absorber capitales. Todo esto se combina en un proceso económico con; malestar del trabajo, el fin de la igualdad, y el estancamiento del mundo.
                     </div>
                     <div className={style.text}>
-                        Esto se da en el marco de un – tan innegable como preocupante – descredito de la
-                        sociedad en lo que a “soluciones políticas y representativas” se refiere. <strong>Un dato: el
-                            pensador contemporáneo N. Chomsky dice que la democracia está en crisis a nivel
-                            global, y que la misma, va camino a profundizarse si no se actúa de inmediato.</strong>
+                        Entre la revolución 3.0 y la 4.0 se conjugan dos aspectos que golpean a la organización obrera. La atomización espacial que significa que los empleos no se dan en el mismo lugar físico ni en el mismo tiempo determinado y las nuevas formas de comunicación que aíslan más a los sujetos: crece el desempleo y también el sobre empleo para llegar a fin de mes.
                     </div>
                     <div className={style.text}>
-                        Solo el necio resistiría la responsabilidad del peronismo y de las fueras políticas
-                        progresistas frente al actual contexto – emergencia del liderazgo de Javier Milei y de LLA
-                        de por medio – y solo los que decidan edulcorar su mirada (y responsabilidad) desde los
-                        sectores llamados a resolver esta crisis, serán meros espectadores de una noche que parece
-                        eterna.
+                        Con respecto al malestar del trabajo, podemos destacar la destrucción de empleos que trae aparejado la tecnología, aunque sobreviven algunos trabajos creativos, afectivos y físicos de baja calificación. Lo cual no desaparece el trabajo, más bien lo polariza, entre de baja y alta remuneración. Las nuevas condiciones de trabajo son frágiles e inestables como la precarización de la economía colaborativa como pedidos ya, Uber o Airbnb. Y aunque da mayor autonomía y tiempo libre, el salario ya no es estable, ni hay seguro de salud, ni jubilaciones, ni seguridad social. El trabajador intermedio, como el oficialista, será reemplazado por un algoritmo, y se mantendrán algunos otros trabajos, como el albañil y la mucama en negro.
                     </div>
                     <div className={style.text}>
-                        Andrés nos invitó a reflexionar, sin dejar de lado la realidad que preocupa y nubla
-                        la visión, y a trabajar desde los distintos sectores y lugares que ocupamos, desde el dialogo
-                        y desde la contención. No toda la clase media adhiere por convicción; no todos los pobres
-                        han renunciado a la lucha y a la fe en que el ascenso social y la mejora en las condiciones
-                        de vida, aún pueden prevalecer.
+                        Todo esto ha generado en nuestras sociedades un cuadrilátero de envidia: una élite creativa y bien remunerada, el administrativo con pocas funciones, el obrero hábil y mal pago, y el "planero" que se miran con recelo y votan en consecuencia.
                     </div>
                     <div className={style.text}>
-                        Andrés nos invitó a reflexionar, sin dejar de lado la realidad que preocupa y nubla
-                        la visión, y a trabajar desde los distintos sectores y lugares que ocupamos, desde el dialogo
-                        y desde la contención. No toda la clase media adhiere por convicción; no todos los pobres
-                        han renunciado a la lucha y a la fe en que el ascenso social y la mejora en las condiciones
-                        de vida, aún pueden prevalecer.
+                        A mitad de siglo se suponía que con la sociedad industrial, la igualdad iba a ser un hecho en el mundo. Pero actualmente hay una disparidad muy grande. Sólo crecen los sueldos gerenciales. Hubo una migración no del campo a la ciudad, como en su momento, sino de la industria a la economía de servicios.
                     </div>
                     <div className={style.text}>
-                        Andrés nos invitó a reflexionar, sin dejar de lado la realidad que preocupa y nubla
-                        la visión, y a trabajar desde los distintos sectores y lugares que ocupamos, desde el dialogo
-                        y desde la contención. No toda la clase media adhiere por convicción; no todos los pobres
-                        han renunciado a la lucha y a la fe en que el ascenso social y la mejora en las condiciones
-                        de vida, aún pueden prevalecer.
+                        Las instituciones de la sociedad industrial ya no cumplen el rol igualador en la actualidad y hay una concentración del capital, el ahorro, la inversión, la herencia, y las rentas inmobiliarias y financieras.
                     </div>
                     <div className={style.text}>
-                        La síntesis de ese punto es clarificadora: debemos rescatar algo de la resistencia
-                        peronista, que emergía con la vuelta de Perón y los procesos revolucionarios que traerían
-                        profundos cambios, hacia la segunda mitad del siglo pasado; había allí, algo por lo que
-                        pelear y movilizarse. Una resistencia que se forjó en un escenario no tan distinto al que
-                        se plantea hoy desde LLA, allá por el 55’ hasta el 73’. Es una advertencia, respecto a la
-                        gravedad – en su más amplia definición – de silenciarnos frente a los avances virulentos
-                        que vienen y que deben necesariamente contar con resistencia; hablamos, por caso, del
-                        llamado al nuevo pacto del 25 de mayo, por parte del primer mandatario, un llamado que
-                        no oculta la voluntad de imponer, más que negociar.
+                        En la mitad del siglo, en la sociedad industrial, se logró generar una economía más igualitaria después de un siglo de explotación, pero recién a partir de la destrucción de capital que causaron las dos grandes guerras, lo que implicó el avance de la economía proteccionista de los países.
                     </div>
                     <div className={style.text}>
-                        No está vencido el pueblo que, aún en contextos adversos, puede alzar la mirada
-                        y pensar un futuro distinto. Es tarea de todos y todas, los que tenemos la voluntad de
-                        participar y “de hacer”, dialogar con la sociedad – no la sesgada y secularizada sino la
-                        integrada, pero con realidad diferentes – y construir la necesaria alternativa frente a la
-                        crisis. Aglutinar a ese sujeto político que está inmerso en la incertidumbre, agotado de
-                        falsas promesas, invisibilizado en su expresión, pero convencido de que este no es el
-                        capítulo final.
+                        Otra característica actual es el estancamiento económico mundial. Le podríamos agregar a esto que ya se ha usado más de la mitad del petróleo en el mundo y los demás recursos naturales no renovables, sumado al calentamiento global.
+                    </div>
+                    <div className={style.text}>
+                        En los años ochenta, una característica fue la deslocalización, es decir, generar cadenas globales de valor. Actualmente, las casas matrices han decidido replegar su producción porque es más económico producir con robots que con trabajadores del tercer mundo. Y porque sus países, también así lo demandan, la victoria de Trump da cuenta de eso.
+                    </div>
+                    <div className={style.text}>
+                        Latinoamérica, en este contexto, no aprovechó los quince años de buenos precios internacionales. Si bien se logró distribuir y tener políticas distributivas, no se logró avanzar en la tecnificación y en la industrialización como se hicieron los países asiáticos. Nuestra América solamente se recostó sobre sus ventajas comparativas.
+                    </div>
+                    <div className={style.text}>
+                        No podemos seguir confiando en la reserva de trabajadores baratos y recursos naturales para nuestros países.
                     </div>
                     <br />
-                    <div className={style.text}><strong>Pensar para desarrollar</strong></div>
+                    <br />
+                    <div className={style.text}><strong>PODER COGNITIVO </strong></div>
                     <div className={style.text}>
-                        En este apartado, y a modo de síntesis en pocos caracteres, les dejamos una serie
-                        de ideas en clave de pensamientos activos para el desarrollo, que surgieron a partir del
-                        nutritivo encuentro con Andrés.
+                        En un contexto económico de deterioro que trae esta nueva etapa del capitalismo 4.0, es común que la mayoría sienta ansiedad, depresión y falta de esperanza por las condiciones de empleo terriblemente tenues. También, que se haya logrado persuadir a tantos trabajadores de que se acepte este deterioro y que se asume como natural. Esto ha generado una privatización del estrés. Margaret Tacher dijo que no había alternativa en la implementación del neoliberalismo y desde entonces se lo quiere instalar como el único sistema posible. Esto, entre otras cosas, ha llevado a que muchos movimientos populares y de izquierda no supieran o no pudieran dar respuesta a una consecuencia, que es la desintegración de la vieja base de poder industrial de los trabajadores.
                     </div>
+                    <div className={style.text}>
+                        El avance de la globalización cambió manufacturas por la computarización, sumando la precarización del trabajo y la intensificación de la cultura del consumo. Muchas fuerzas populares corren el riesgo de desaparecer en la medida que permanezca pegada a los supuestos del viejo mundo declinante, no entiendan el nuevo mundo post laboral.
+                    </div>
+                    <div className={style.text}>
+                        Se debe empujar en ese nuevo tablero más que construir una versión mitigada del despliegue neoliberal. Muchos cuadros políticos han sucumbido/ traicionado, ante una forma colectiva de depresión clínica, déficit motivacional e incapacidad de actuar.
+                    </div>
+                    <div className={style.text}>
+                        Hay una descomposición de la colectividad y un avance del juego de la competencia individualista, forzando a los trabajadores al compromiso del llamado desarrollo profesional continuo para poder obtener empleo. En el cual el trabajador debe estar siempre disponible en el marco de la aceleración en el intercambio de información que ya no pueden procesar conscientemente.
+                    </div>
+                    <div className={style.text}>
+                        Es que una de las consecuencias tecnológicas es que no se cuenta con un espacio externo en el que uno pueda descansar y recuperarse de ellas, porque el trabajo ya no se limita a un lugar o un horario. El vínculo con la tecnología es permanente y lo paradójico es que esto no se experimenta necesariamente como algo displacentero. Ya ni siquiera puede un trabajador ir de vacaciones sin llevarse la oficina a cuestas.
+                    </div>
+                    <div className={style.text}>
+                        El capital actual enferma al trabajador, y le vende las drogas para que se sienta mejor. Las causas sociales y políticas del estrés quedan de lado y el descontento se individualiza e interioriza. Se deja de lado las raíces sociales de la infelicidad, como el individualismo competitivo y la desigualdad y la injusta distribución del ingreso.
+                    </div>
+                    <div className={style.text}>
+                        Claramente, los vínculos en nuestra historia con la felicidad están asociados y se logran con la participación comunitaria, pública, política en la sociedad, el fortalecimiento de los lazos sociales y claramente con la distribución del ingreso. Por otro lado, el neoliberalismo ofrece la autorrealización que llaman igualdad de oportunidades.
+                    </div>
+                    <div className={style.text}>
+                        Se ha despolitizado de manera planificada el estrés y se trabaja en ejes de autoayuda tratando de convencer al individuo de que es dueño de su propio destino, sin tener en cuenta el contexto.
+                    </div>
+                    <div className={style.text}>
+                        La privatización del estrés tiene que ver con la destrucción del concepto de lo público, de lo común, de lo comunitario, de lo político. Debemos vincular la salud mental al problema de recuperar lo público, lo común, el destino colectivo de la sociedad.
+                    </div>
+                    <div className={style.text}>
+                        Mientras todo esto pasa, emerge una especie de autonomismo de derecha llamado a restituir las viejas tradiciones. El neoliberalismo captó el deseo de los trabajadores convenciendo de liberarse de las restricciones del capitalismo industrial, cambiándolo por el consumismo individualista miserable al que nos han llevado.
+                    </div>
+                    <div className={style.text}>
+                        No necesitamos volver a las formaciones sociales que ya han fracasado. Tenemos que reconstruir la esfera política, pública, comunitaria, democrática.
+                    </div>
+                    <div className={style.text}>
+                        Las recientes irrupciones de militancias de distintos sectores juveniles, feministas, ambientalistas, sociales y las explosiones de rabia pública y colectiva son un camino a seguir. Contra las numerosas patologías con las que se nos inocula el capitalismo comunicativo.
+                    </div>
+                    <div className={style.text}>
+                        La precarización del trabajo, la intensificación de la cultura del consumo, los mecanismos de control social, la gerencialización de la política, la mercantilización de la educación, generan el aumento de los padecimientos mentales orientados a bloquear toda capacidad colectiva de transformación.
+                    </div>
+                    <br />
+                    <br />
+                    <div className={style.text}><strong>ENDEUDAMIENTO</strong></div>
+                    <div className={style.text}>
+                        Los mecanismos de deuda y endeudamiento de países y personas, son un esquema de transferencia de recursos de la población a los acreedores, un poderoso mecanismo de explotación. El crédito es un instrumento de explotación que se apropia del trabajo, captura plusvalía. Los propietarios del capital se transforman en capitalistas financieros o rentistas. La especulación financiera o la acumulación financiera está imbricada con la propiedad privada y el patrimonio en esta etapa del capitalismo. El capital financiero asume la tarea de capitalista colectivo. Las compañías financieras, de seguros y las inmobiliarias ocupan la mayoría de la facturación en el mundo capitalista actual. Por ejemplo, las industrias automotrices tienen su propio mecanismo de crédito dirigido al consumo.
+                    </div>
+                    <div className={style.text}>
+                        La relación entre propietario y no propietario de capital o la relación de fuerzas de las fuerzas fundadas en la propiedad es la misma relación de acreedor - deudor. Es una relación de poder. Por eso hablamos de economía de la deuda. La deuda de los países es lo mismo que el recorte de las políticas sociales y el ajuste. Es quien determina los recortes presupuestarios. No es que hay una economía virtual y otra economía real. Hay una relación de poder entre acreedores y deudores que es la misma relación que de propietarios y no propietarios. La relación de poder entre acreedores y deudores es el núcleo estratégico de las políticas neoliberales.
+                    </div>
+                    <div className={style.text}>
+                        El avance del capital financiero encontró lugar con el déficit público de finales de los setenta, (Nacimiento del capitalismo 3.0) que abrió la puerta a la economía de la deuda. Se aumentó la tasa de interés pasando del nueve al veinte por ciento y se generaron endeudamiento acumulativo de los estados como deuda pública y de los países que es la deuda externa. Y esto profundizó el programa político neoliberal.
+                    </div>
+                    <div className={style.text}>
+                        El otrora estado benefactor, o sea, las jubilaciones, las vacaciones y los servicios sociales que las luchas sociales arrancaron la acumulación capitalista décadas atrás están siendo totalmente erosionadas por los mecanismos de deuda. Además, que se avanza en la privatización de los servicios del estado benefactor. Las privatizaciones de estas políticas sociales han generado la individualización de la política social y hacen de la protección social una función empresarial. La deuda actúa como una depredación contra la sociedad en su conjunto y como un dispositivo de redistribución regresiva a los ingresos, pero sobre todo actúa sobre las subjetividades colectivas individuales. Se transforma el dinero en deuda y la deuda en propiedad. En las últimas décadas se ha pasado de la regulación fordista industrial que privilegió al polo productivo a una regulación financiera que pone en primer plano al polo financiero y acreedor. Hoy en día la relación acreedor - deuda se superpone a la relación capital trabajo. Esto genera una subjetividad de la culpa en la mayoría de los trabajadores. Es la captación de plusvalía por otros medios.
+                    </div>
+                    <div className={style.text}>
+                        La deuda es una relación de poder universal, aún quienes son demasiados pobres deben pagar los intereses de los países acreedores ante la necesidad de reembolsar la deuda pública. Todos estamos en deuda con el Dios capital. Esto modela la subjetividad de las naciones y de los pueblos.
+                    </div>
+                    <div className={style.text}>
+                        En la actualidad, hablamos de crisis financiera, de crisis nuclear, de crisis alimentaria, de crisis climática, pero las crisis dan cuenta de que también puede haber una oportunidad que las resuelva, en este caso estamos en un punto de inflexión. Más bien esta crisis del capitalismo se parece a una catástrofe sin resolución. El capital produce un poder nuclear militar capaz de destruir varios planetas a la vez, multiplica la fabricación de bienes de consumo y decuplica la contaminación del agua, el aire, el suelo y descompone el clima la productividad agrícola y al mismo tiempo que nos alimenta nos envenena. A su vez, el capitalismo cognitivo destruye el sistema público de formación en todos los niveles, el capitalismo cultural produce conformismo que no tiene igual en la historia de la sociedad, donde la imagen neutraliza toda imaginación. Por eso hablamos de dispositivos de anti producción como forma inseparable del capitalismo actual.
+                    </div>
+                    <div className={style.text}>
+                        A partir de ahora tenemos que reactivar la lucha, incluso en este terreno obstaculizado y desterritorializado. Buscando nuevas solidaridades, alianzas entre lo económico, lo político y lo social para enfrentar este capitalismo financiero destructivo.
+                    </div>
+                    <br />
+                    <div className={style.text}><strong>LECTURA COMPLEMENTARIA:</strong></div>
                     <ul className={style.list}>
-                        <li>Fortalecer la conversación en el barrio; crear una red de trabajo colaborativo e
-                            interdisciplinario;</li>
-                        <li>Identificar los elementos positivos que aún subsisten y que, en varios casos,
-                            carecen de la contención de las instituciones (sobre todo las relacionadas con el
-                            deporte y las actividades recreativas);</li>
-                        <li>Trabajar en el armado de estrategias para “nadar sobre la crisis”; en enfoque pro
-                            desarrollo socio económico, con esquemas de resolución de problemáticas
-                            puntuales;</li>
-                        <li>Trabajar en la reducción – diálogos de por medio – del sesgo ideológico y de
-                            pensamiento, abrumado por el libertinaje de las redes sociales y las campañas del
-                            odio.</li>
+                        <li>¿POR QUÉ EL CAPITALISMO PUEDE SOÑAR Y NOSOTROS NO? De Alejandro Galliano.</li>
+                        <li>LA PRIVATIZACIÓN DEL ESTRÉS. De Mark Fisher.</li>
+                        <li>LA FÁBRICA DEL HOMBRE ENDEUDADO. De Mauricio Lazzarato.</li>
                     </ul>
                     <div className={style.text_strong}>“No hay viento favorable, para el que no sabe adónde va”</div>
                     <div className={style.text_strong}>Séneca</div>

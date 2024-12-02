@@ -52,7 +52,7 @@ export const dpa = [
 export const nmplm = [
     {
         id: 1,
-        title: "Melodías",
+        title: "Desvalorización del trabajo, poder cognitivo y endeudamiento en el mundo actual ",
         url: "nuevas-melodias-para-la-militancia-1",
     },
     {
