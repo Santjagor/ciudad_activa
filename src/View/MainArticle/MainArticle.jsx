@@ -9,7 +9,7 @@ export default function MainArticle() {
                 <meta name="og:title" property="og:title" content="Ciudad que Late" />
                 <meta name="og:description" property="og:description" content="De la polis que sueña, a la ciudad que se mueve…" />
                 <meta name="og:image" property="og:image" content="Logo4.png" />
-                {/* <meta property="og:url" content="" /> */}
+                <meta property="og:url" content="" />
             </Helmet>
             <div className={style.topImageContainer}>
                 <img className={style.topImage} src="/banner-cql.webp" alt="banner" loading='lazy' />
