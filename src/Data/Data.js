@@ -19,11 +19,6 @@ export const sections = [
         name: "Fondo Urbano",
         image: "Section3.webp",
     },
-    {
-        id: "dialogos-para-activar-1",
-        name: "Dialogos para activar",
-        image: "banner-dpa.png",
-    },
 ]
 
 export const dpa = [

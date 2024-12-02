@@ -19,6 +19,7 @@
     cursor: pointer;
     border-radius: 10px;
     transition: all .2s ease-in-out;
+    width: 40%;
 }
 
 .buttonActive:hover {
@@ -35,4 +36,15 @@
     padding: 1rem;
     border-radius: 10px;
     font-size: .8rem;
+    width: 40%;
+}
+
+@media (width<=768px) {
+    .buttonActive {
+        width: 100%;
+    }
+
+    .buttonInactive {
+        width: 100%;
+    }
 }

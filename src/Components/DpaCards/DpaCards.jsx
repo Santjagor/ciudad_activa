@@ -4,8 +4,7 @@ import { dpa } from '../../Data/Data'
 export default function DpaCards({ handleSections }) {
     return (
         <div className={styles.dpaContainer}>
-            <img className={styles.dpaImage} src="banner-dpa.png" alt="" />
-            <div className={styles.dpaTitle}>DIALOGOS PARA ACTIVAR</div>
+            <img src="dpa_cards_title.png" alt="dpa_cards_title" className={styles.dpa_titleImage} />
             <div className={styles.dpaButtonContainer}>
                 {dpa.map(d => {
                     return (

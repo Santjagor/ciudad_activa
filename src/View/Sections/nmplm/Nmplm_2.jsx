@@ -7,18 +7,18 @@ export default function Section({ handleSections }) {
             <div className={style.container}>
                 <NmplmBanner handleSections={handleSections} />
                 <br />
-                <img src="NMPLM_1.png" alt="NMPLM_1" className={style.image} />
+                <img src="NMPLM2_1.png" alt="NMPLM2_1" className={style.nmplmImage} />
                 <div className={style.articleContainer}>
-                    <div className={style.text_strong}>"Ganador y perdedor, Una antigua ley, Ganador y perdedor, El nuevo orden mundial aquí está"
+                    <div className={style.nmplm_text_strong}>"Ganador y perdedor, Una antigua ley, Ganador y perdedor, El nuevo orden mundial aquí está"
                     </div>
-                    <div className={style.text_strong}>Ángeles caídos- La Polla Records</div>
+                    <div className={style.nmplm_text_strong}>Ángeles caídos - La Polla Records</div>
                     <br />
-                    <div className={style.title}>Deshumanización, conectividad y nuevas verdades.</div>
+                    <div className={style.nmplm_title_2}>Deshumanización, conectividad y nuevas verdades.</div>
                     <br />
                     <br />
                     <div className={style.text}>Buscaremos reflexionar sobre las modificaciones que han producido en nuestra vida cotidiana, principalmente, en nuestra vida vincular, los procesos de digitalización. No hay tecnología inocua o neutral, todo desarrollo surge a partir de un entramado de ideas, valores y poderes que se "materializan" en esa invención.
                         Vivimos un Semio capitalismo: control de las personas mediante la comunicación, la información y explotación del conocimiento para reproducir el capital. La tecnología no está aislada de las relaciones de poder, es parte de la lógica capitalista de acumulación y reproducción del capital.</div>
-                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <img src="NMPLM2_2.png" alt="NMPLM2_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}><strong>DESHUMANIZACIÓN</strong></div>
@@ -53,7 +53,7 @@ export default function Section({ handleSections }) {
                         Esto genera límites en la atención, energía psíquica y sensibilidad. Avanza la bipolaridad y la hiper-saturación. Las personas con depresión se sienten culpables, generando rupturas violentas. En la época de Freud, vivíamos en una sociedad represiva; hoy, el contexto es de hiper-estimulación, movilizando energía nerviosa hacia violencia y agresividad social.
                     </div>
                     <br />
-                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <img src="NMPLM2_2.png" alt="NMPLM2_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}><strong>CONECTIVIDAD</strong></div>
@@ -79,7 +79,7 @@ export default function Section({ handleSections }) {
                         Se construyen valores sociales que afectan prácticas culturales y el intercambio social. Estamos arraigados en una ideología que valora la jerarquía, competencia y el lugar del ganador.
                     </div>
                     <br />
-                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <img src="NMPLM2_2.png" alt="NMPLM2_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}><strong>VERDAD</strong></div>

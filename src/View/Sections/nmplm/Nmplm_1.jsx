@@ -7,15 +7,15 @@ export default function Section({ handleSections }) {
             <div className={style.container}>
                 <NmplmBanner handleSections={handleSections} />
                 <br />
-                <img src="NMPLM_1.png" alt="NMPLM_1" className={style.image} />
+                <img src="NMPLM2_1.png" alt="NMPLM2_1" className={style.nmplmImage} />
                 <div className={style.articleContainer}>
-                    <div className={style.text_strong}>"El futuro ya llegó, llegó como vos no lo esperabas, todo un palo, ya lo ves”</div>
-                    <div className={style.text_strong}>Patricio Rey</div>
+                    <div className={style.nmplm_text_strong}>"El futuro ya llegó, llegó como vos no lo esperabas, todo un palo, ya lo ves”</div>
+                    <div className={style.nmplm_text_strong}>Patricio Rey</div>
                     <br />
-                    <div className={style.title}>Desvalorización del trabajo, poder cognitivo y endeudamiento en el mundo actual</div>
+                    <div className={style.nmplm_title_2}>Desvalorización del trabajo, poder cognitivo y endeudamiento en el mundo actual</div>
                     <br />
                     <br />
-                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <img src="NMPLM2_2.png" alt="NMPLM2_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}>CARACTERIZACIÓN</div>
@@ -75,7 +75,7 @@ export default function Section({ handleSections }) {
                         No podemos seguir confiando en la reserva de trabajadores baratos y recursos naturales para nuestros países.
                     </div>
                     <br />
-                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <img src="NMPLM2_2.png" alt="NMPLM2_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}><strong>PODER COGNITIVO </strong></div>
@@ -119,7 +119,7 @@ export default function Section({ handleSections }) {
                         La precarización del trabajo, la intensificación de la cultura del consumo, los mecanismos de control social, la gerencialización de la política, la mercantilización de la educación, generan el aumento de los padecimientos mentales orientados a bloquear toda capacidad colectiva de transformación.
                     </div>
                     <br />
-                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <img src="NMPLM2_2.png" alt="NMPLM2_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}><strong>ENDEUDAMIENTO</strong></div>

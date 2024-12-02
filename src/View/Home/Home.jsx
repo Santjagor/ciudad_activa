@@ -23,8 +23,6 @@ export default function Home({ handleSections }) {
             <br /><br /><br />
             <DpaCards handleSections={handleSections} />
             <br /><br /><br />
-
-            <br /><br /><br />
             <NmplmCards handleSections={handleSections} />
             <br /><br /><br />
 

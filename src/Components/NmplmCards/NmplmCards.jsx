@@ -4,8 +4,7 @@ import { nmplm } from '../../Data/Data'
 export default function NmplmCards({ handleSections }) {
     return (
         <div className={styles.nmplmContainer}>
-            <img className={styles.nmplmImage} src="banner-dpa.png" alt="" />
-            <div className={styles.nmplmTitle}>NUEVAS MELODÍAS PARA LA MILITANCIA</div>
+            <img src="NMPLM2_1.PNG" alt="NMPLM2_1" className={styles.nmplm_titleImage} />
             <div className={styles.nmplmButtonContainer}>
                 {nmplm.map(m => {
                     return (

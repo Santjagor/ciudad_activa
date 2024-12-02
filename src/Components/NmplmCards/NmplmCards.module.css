@@ -1,9 +1,14 @@
 .nmplmTitle {
-    color: var(--primary-color);
+    color: var(--secondary-title-color);
     font-family: title;
     font-size: 3rem;
     margin-bottom: 2rem;
     filter: drop-shadow(white 0px 0px 5px);
+    text-decoration: underline;
+}
+
+.nmplm_titleImage{
+    width: 100%;
 }
 
 .nmplmContainer {
@@ -27,11 +32,11 @@
     flex-wrap: wrap;
     justify-content: center;
     gap: .5rem;
-    width: 50%;
+    width: 100%;
 }
 
 .nmplmButton {
-    background-color: var(--primary-color);
+    background-color: var(--secondary-title-color);
     color: white;
     text-transform: uppercase;
     font-weight: bold;
@@ -41,8 +46,22 @@
     cursor: pointer;
     border-radius: 10px;
     transition: all .2s ease-in-out;
+    width: 40%;
 }
 
 .nmplmButton:hover {
-    scale: 1.05;
+    scale: 1.02;
+}
+
+@media (width<=1170px) {
+   
+}
+
+@media (width<=768px) {
+    .nmplmButtonContainer {
+        width: 90%;
+    }
+    .nmplmButton {
+        font-size: 0.65rem;
+    }
 }
