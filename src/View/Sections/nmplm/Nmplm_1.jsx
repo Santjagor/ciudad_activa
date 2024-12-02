@@ -6,14 +6,16 @@ export default function Section({ handleSections }) {
         <div>
             <div className={style.container}>
                 <NmplmBanner handleSections={handleSections} />
-                <div id='Inicio' className={style.title}>Nuevas Melodías Para La Militancia</div>
+                <br />
+                <img src="NMPLM_1.png" alt="NMPLM_1" className={style.image} />
                 <div className={style.articleContainer}>
-                    <hr />
                     <div className={style.text_strong}>"El futuro ya llegó, llegó como vos no lo esperabas, todo un palo, ya lo ves”</div>
                     <div className={style.text_strong}>Patricio Rey</div>
                     <br />
-                    <img src="dpa1.jpg" alt="dpa1" className={style.image} />
-                    <div id='Inicio' className={style.title}>Desvalorización del trabajo, poder cognitivo y endeudamiento en el mundo actual </div>
+                    <div className={style.title}>Desvalorización del trabajo, poder cognitivo y endeudamiento en el mundo actual</div>
+                    <br />
+                    <br />
+                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
                     <br />
                     <br />
                     <div className={style.text}>CARACTERIZACIÓN</div>
@@ -73,6 +75,8 @@ export default function Section({ handleSections }) {
                         No podemos seguir confiando en la reserva de trabajadores baratos y recursos naturales para nuestros países.
                     </div>
                     <br />
+                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <br />
                     <br />
                     <div className={style.text}><strong>PODER COGNITIVO </strong></div>
                     <div className={style.text}>
@@ -115,6 +119,8 @@ export default function Section({ handleSections }) {
                         La precarización del trabajo, la intensificación de la cultura del consumo, los mecanismos de control social, la gerencialización de la política, la mercantilización de la educación, generan el aumento de los padecimientos mentales orientados a bloquear toda capacidad colectiva de transformación.
                     </div>
                     <br />
+                    <img src="NMPLM_2.png" alt="NMPLM_2" className={style.image} />
+                    <br />
                     <br />
                     <div className={style.text}><strong>ENDEUDAMIENTO</strong></div>
                     <div className={style.text}>
@@ -145,8 +151,6 @@ export default function Section({ handleSections }) {
                         <li>LA PRIVATIZACIÓN DEL ESTRÉS. De Mark Fisher.</li>
                         <li>LA FÁBRICA DEL HOMBRE ENDEUDADO. De Mauricio Lazzarato.</li>
                     </ul>
-                    <div className={style.text_strong}>“No hay viento favorable, para el que no sabe adónde va”</div>
-                    <div className={style.text_strong}>Séneca</div>
                     <br />
                     <br />
                     <br />
