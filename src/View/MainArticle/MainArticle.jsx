@@ -1,8 +1,13 @@
 import style from './MainArticle.module.css'
+import { Helmet } from 'react-helmet';
 
 export default function MainArticle() {
     return (
         <div className={style.container}>
+            <Helmet>
+                <title>Ciudad que Late</title>
+                <meta name="De la polis que sueña, a la ciudad que se mueve" />
+            </Helmet>
             <div className={style.topImageContainer}>
                 <img className={style.topImage} src="/banner-cql.webp" alt="banner" loading='lazy' />
             </div>
