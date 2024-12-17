@@ -3,13 +3,6 @@ import style from './MainArticle.module.css'
 export default function MainArticle() {
     return (
         <div className={style.container}>
-            <Helmet>
-                <meta property="og:type" content="website" />
-                <meta name="og:title" property="og:title" content="Ciudad que Late" />
-                <meta name="og:description" property="og:description" content="De la polis que sueña, a la ciudad que se mueve…" />
-                <meta name="og:image" property="og:image" content="Logo4.png" />
-                <meta property="og:url" content="https://nicolas-carrillo.vercel.app/Logo4.png" />
-            </Helmet>
             <div className={style.topImageContainer}>
                 <img className={style.topImage} src="/banner-cql.webp" alt="banner" loading='lazy' />
             </div>
